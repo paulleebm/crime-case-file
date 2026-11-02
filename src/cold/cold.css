@@ -1,0 +1,60 @@
+/* 미제 사건 수사 게임 뼈대 (/cold). 색과 글꼴은 styles.css의 다섯 단계 종이 색을 그대로 쓴다 */
+.cold-root { height: 100%; }
+.cold-lines { white-space: pre-line; margin: 0 0 10px; }
+.cold-title, .cold-slide, .cold-ending { width: 760px; max-width: 100%; margin: auto; padding: 40px 52px; }
+.cold-title h1 { font-size: 34px; margin: 6px 0 2px; }
+.cold-slide { min-height: 320px; display: flex; flex-direction: column; cursor: var(--cur-pointer); }
+.cold-slide .cold-lines { font-size: 18px; line-height: 2; margin-top: 22px; flex: 1; }
+.cold-slide-foot { display: flex; justify-content: space-between; align-items: center; font-size: 12px; }
+.cold-ending { max-height: 94vh; overflow: auto; }
+.cold-ending h2 { font-size: 28px; margin: 4px 0 14px; }
+.cold-card { margin-top: 18px; padding-top: 12px; border-top: 1px dotted var(--ink-4); }
+
+.cold-titlebar { display: grid; grid-template-columns: auto 1.6fr 1fr 2fr auto auto; align-items: center; gap: 16px; padding: 0 16px; }
+.cold-titlebar .k { font: 11px var(--mono); color: var(--ink-3); margin-right: 6px; }
+.cold-main { grid-template-columns: 300px minmax(0, 1fr); }
+.cold-work { padding: 0; }
+.cold-work > .docview, .cold-work > .cold-docs, .cold-work > .cold-room { flex: 1; min-height: 0; }
+
+.cold-q { padding: 4px 6px; font-size: 13px; border-left: 2px solid transparent; margin-bottom: 4px; }
+.cold-q.증거 { border-left-color: #a33a33; }
+.cold-q.진술 { border-left: 2px dashed var(--ink-3); }
+.cold-q-mark { font: 11px var(--mono); color: #a33a33; margin-left: 4px; }
+.cold-q.진술 .cold-q-mark, .cold-q.미해결 .cold-q-mark { color: var(--ink-3); }
+.cold-main > .panel.scroll, .cold-ending { overflow-x: hidden; }
+.cold-q-a { font-size: 12px; margin-top: 2px; }
+
+.cold-person { padding: 6px 6px 8px; border-bottom: 1px dotted var(--ink-4); font-size: 13px; }
+.cold-person.on { background: rgba(0,0,0,.05); }
+.cold-person-actions { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 2px; font-size: 12px; }
+.cold-person-actions button:disabled { color: var(--ink-4); text-decoration: none; cursor: var(--cur-not-allowed); }
+.cold-check { display: inline-flex; gap: 4px; align-items: center; color: var(--ink-2); }
+
+.cold-pending { font-size: 12px; margin-bottom: 4px; }
+.cold-act { justify-content: space-between; padding: 6px 8px; }
+.cold-act:hover { background: rgba(0,0,0,.05); }
+.cold-journal { font-size: 12px; padding: 2px 0; }
+
+.cold-docs { display: grid; grid-template-columns: 240px minmax(0, 1fr); min-height: 0; }
+.cold-doclist { padding: 4px 8px 20px; border-right: 1px dotted var(--ink-4); }
+.cold-doclist .item.on { background: rgba(0,0,0,.06); }
+
+.cold-room { display: flex; flex-direction: column; min-height: 0; }
+.cold-msg { max-width: 78%; padding: 8px 12px; background: var(--c4); align-self: flex-start; }
+.cold-msg.me { align-self: flex-end; background: var(--c5); }
+.cold-room-menu { flex: none; padding: 8px 16px 14px; border-top: 1px solid var(--ink-4); max-height: 46%; overflow: auto; }
+.cold-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.cold-room-menu select { padding: 4px 8px; min-width: 320px; }
+
+.cold-modal { position: fixed; inset: 0; background: rgba(40,38,34,.35); display: flex; z-index: 50; }
+.cold-modal-box { margin: auto; width: 520px; padding: 26px 30px; display: flex; flex-direction: column; gap: 8px; }
+.cold-field { display: flex; gap: 12px; align-items: center; font-size: 13px; }
+.cold-field select { padding: 4px 8px; flex: 1; }
+
+.cold-orders-wrap { display: flex; flex-direction: column; min-height: 0; flex: 1; }
+.cold-order-input { flex: none; padding: 8px 16px 12px; border-top: 1px solid var(--ink-4); max-height: 52%; overflow: auto; }
+.cold-order-row { display: flex; gap: 10px; align-items: stretch; }
+.cold-order-row textarea { flex: 1; resize: none; padding: 8px 10px; background: var(--c5); border: 1px solid var(--ink-4); border-radius: 3px; font: 14px/1.6 var(--ui); }
+.cold-via { font-size: 12px; margin-top: 4px; }
+.cold-menu { margin-top: 8px; font-size: 13px; }
+.cold-menu summary { color: var(--ink-2); }

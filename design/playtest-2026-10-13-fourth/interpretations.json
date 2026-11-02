@@ -1,0 +1,18 @@
+{
+  "interpretations": [
+    {
+      "level": "info",
+      "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F5c\"],\"direct\":false,\"quote\":\"\"}],\"confidence\":0.9}",
+      "timestamp": "2026-10-13T13:57:43.919Z",
+      "url": "http://127.0.0.1:5194/src/ui/conversation.ts"
+    }
+  ],
+  "interpretRaw": [
+    {
+      "level": "info",
+      "message": "[AI 해석 원문] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F5c\"],\"direct\":false,\"quote\":\"\"}],\"confidence\":0.9}",
+      "timestamp": "2026-10-13T13:57:43.918Z",
+      "url": "http://127.0.0.1:5194/src/ui/conversation.ts"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+ "claude-haiku-5-5": {
+  "grade": {
+   "pass": 59,
+   "total": 78,
+   "ms": [
+    2560,
+    2437,
+    2400,
+    3602,
+    2662,
+    2433,
+    3295,
+    2870,
+    2884,
+    3073,
+    2814,
+    2664,
+    5954,
+    5065,
+    4046,
+    7636,
+    10279,
+    9386
+   ],
+   "verdicts": {
+    "정답": [
+     {
+      "when": "correct",
+      "weapon": "correct",
+      "cover": "correct",
+      "why": "correct",
+      "others": "correct"
+     },
+     {
+      "when": "correct",
+      "weapon": "correct",
+      "cover": "correct",
+      "why": "correct",
+      "others": "correct"
+     },
+     {
+      "when": "correct",
+      "weapon": "correct",
+      "cover": "wrong",
+      "why": "wrong",
+      "others": "wrong"
+     }
+    ],
+    "부분": [
+     {
+      "when": "wrong",
+      "weapon": "partial",
+      "cover": "partial",
+      "why": "wrong",
+      "others": "partial"
+     },
+     {
+      "when": "wrong",
+      "weapon": "partial",
+      "cover": "partial",
+      "why": "wrong",
+      "others": "partial"
+     },
+     {
+      "when": "wrong",
+      "weapon": "partial",
+      "cover": "partial",
+      "why": "wrong",
+      "others": "partial"
+     }
+    ],
+    "오답": [
+     {
+      "when": "wrong",
+      "weapon": "wrong",
+      "cover": "wrong",
+      "why": "wrong",
+      "others": "wrong"
+     },
+     {
+      "when": "wrong",
+      "weapon": "wrong",
+      "cover": "wrong",
+      "why": "wrong",
+      "others": "wrong"
+     },
+     {
+      "when": "wrong",
+      "weapon": "wrong",
+      "cover": "wrong",
+      "why": "wrong",
+      "others": "wrong"
+     }
+    ],
+    "섞임": [
+     {
+      "when": "correct",
+      "weapon": "partial",
+      "cover": "wrong",
+      "why": "correct",
+      "others": "partial"
+     },
+     {
+      "when": "partial",
+      "weapon": "partial",
+      "cover": "wrong",
+      "why": "correct",
+      "others": "partial"
+     },
+     {
+      "when": "correct",
+      "weapon": "partial",
+      "cover": "wrong",
+      "why": "correct",
+      "others": "partial"
+     }
+    ],
+    "지시 끼워 넣기·빈칸": [
+     {
+      "when": "wrong",
+      "weapon": "wrong",
+      "cover": "correct",
+      "why": "wrong",
+      "others": "wrong"
+     },
+     {
+      "when": "wrong",
+      "weapon": "wrong",
+      "cover": "correct",
+      "why": "wrong",
+      "others": "wrong"
+     },
+     {
+      "when": "wrong",
+      "weapon": "wrong",
+      "cover": "correct",
+      "why": "wrong",
+      "others": "wrong"
+     }
+    ],
+    "애매": [
+     {
+      "when": "correct",
+      "weapon": "partial",
+      "cover": "partial",
+      "why": "partial",
+      "others": "partial"
+     },
+     {
+      "when": "correct",
+      "weapon": "partial",
+      "cover": "partial",
+      "why": "partial",
+      "others": "partial"
+     },
+     {
+      "when": "correct",
+      "weapon": "partial",
+      "cover": "partial",
+      "why": "partial",
+      "others": "partial"
+     }
+    ]
+   }
+  }
+ }
+}

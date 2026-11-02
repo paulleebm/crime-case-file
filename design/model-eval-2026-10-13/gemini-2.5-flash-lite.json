@@ -1,0 +1,680 @@
+{
+  "gemini-2.5-flash-lite": {
+    "summary": {
+      "accuracy": 0.76,
+      "passed": 57,
+      "total": 75,
+      "casesAllPass": 19,
+      "cases": 25,
+      "p50": 1511,
+      "p90": 1728,
+      "max": 1933,
+      "avgPromptTokens": 9990,
+      "avgOutputTokens": 106,
+      "avgThoughtTokens": 1,
+      "failedAttempts": 6
+    },
+    "rows": [
+      {
+        "id": "P01",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1501,
+          1478,
+          1351
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "question",
+            [
+              "A-D01"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "P02",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1604,
+          1570,
+          1933
+        ],
+        "errors": [
+          "Error: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/er"
+        ],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "A-01.1"
+            ],
+            [
+              "E-16"
+            ],
+            "indirect"
+          ],
+          [
+            "question",
+            [
+              "A-F2"
+            ],
+            [],
+            [],
+            ""
+          ]
+        ]
+      },
+      {
+        "id": "P03",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1522,
+          1460,
+          1581
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "A-01.1"
+            ],
+            [
+              "E-16"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "P04",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1477,
+          1238,
+          1649
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "question",
+            [
+              "B-F5"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "P05",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1548,
+          1468,
+          1450
+        ],
+        "errors": [
+          "Error: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/er"
+        ],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "B-01.4"
+            ],
+            [
+              "E-06"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "P06",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1485,
+          1453,
+          1470
+        ],
+        "errors": [
+          "Error: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/er"
+        ],
+        "sample": [
+          [
+            "question",
+            [
+              "B-F6"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "P07",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1449,
+          1310,
+          1277
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "question",
+            [
+              "C-F5"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "P08",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1355,
+          1336,
+          1512
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "question",
+            [
+              "C-F7"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "P09",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1465,
+          1554,
+          1531
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "C-01.4"
+            ],
+            [
+              "E-12",
+              "B-F16"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "P10",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1357,
+          1479,
+          1444
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "C-01.1",
+              "C-F4"
+            ],
+            [
+              "E-15",
+              "E-04"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q01",
+        "pass": 0,
+        "runs": 3,
+        "ms": [
+          1473,
+          1342,
+          1597
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "restate",
+            [],
+            [],
+            [],
+            ""
+          ]
+        ]
+      },
+      {
+        "id": "Q05",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1548,
+          1344,
+          1412
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "question",
+            [
+              "A-F2"
+            ],
+            [],
+            [
+              "E-16"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q07",
+        "pass": 0,
+        "runs": 3,
+        "ms": [
+          1512,
+          1326,
+          1406
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "question",
+            [
+              "A-F2"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q08",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1579,
+          1643,
+          1380
+        ],
+        "errors": [
+          "Error: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/er"
+        ],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "A-01.1"
+            ],
+            [
+              "E-16"
+            ],
+            "indirect"
+          ],
+          [
+            "question",
+            [
+              "A-F2"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q09",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1471,
+          1388,
+          1533
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [
+              "A-F2"
+            ],
+            [
+              "A-01.1"
+            ],
+            [
+              "E-16"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q14",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1728,
+          1704,
+          1861
+        ],
+        "errors": [
+          "Error: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/er",
+          "Error: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/er"
+        ],
+        "sample": [
+          [
+            "question",
+            [
+              "B-F3"
+            ],
+            [],
+            [],
+            ""
+          ],
+          [
+            "question",
+            [
+              "B-F5"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q24",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1794,
+          1477,
+          1513
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "B-02.1",
+              "B-02.2",
+              "B-F5",
+              "B-01.5",
+              "B-F6"
+            ],
+            [
+              "E-11"
+            ],
+            ""
+          ],
+          [
+            "question",
+            [
+              "B-F5b"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q25",
+        "pass": 0,
+        "runs": 3,
+        "ms": [
+          1682,
+          1373,
+          1527
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "B-01.2",
+              "B-01.4"
+            ],
+            [
+              "E-10",
+              "E-11",
+              "B-02.1",
+              "B-02.2"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q26",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1671,
+          1563,
+          1619
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "B-01.4",
+              "B-02.1",
+              "B-02.2"
+            ],
+            [
+              "E-10",
+              "E-11"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q31",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1577,
+          1599,
+          1543
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "C-03.1"
+            ],
+            [
+              "E-07",
+              "E-13"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q33",
+        "pass": 0,
+        "runs": 3,
+        "ms": [
+          1505,
+          1526,
+          1600
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "question",
+            [
+              "A-F9"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q38",
+        "pass": 0,
+        "runs": 3,
+        "ms": [
+          1497,
+          1384,
+          1523
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "question",
+            [
+              "A-F9"
+            ],
+            [],
+            [],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q40",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1511,
+          1467,
+          1358
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "C-04.5"
+            ],
+            [
+              "E-13"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "Q44",
+        "pass": 0,
+        "runs": 3,
+        "ms": [
+          1849,
+          1838,
+          1852
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "challenge",
+            [],
+            [
+              "C-01.7"
+            ],
+            [
+              "E-13"
+            ],
+            "indirect"
+          ],
+          [
+            "challenge",
+            [],
+            [
+              "C-01.7"
+            ],
+            [
+              "A-F9"
+            ],
+            "indirect"
+          ],
+          [
+            "question",
+            [
+              "C-F17b"
+            ],
+            [],
+            [
+              "E-13"
+            ],
+            "indirect"
+          ]
+        ]
+      },
+      {
+        "id": "S01",
+        "pass": 3,
+        "runs": 3,
+        "ms": [
+          1422,
+          1581,
+          1832
+        ],
+        "errors": [],
+        "sample": [
+          [
+            "casual",
+            [],
+            [],
+            [],
+            ""
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+[
+  {
+    "kind": "request",
+    "id": "16880.756"
+  },
+  {
+    "kind": "response",
+    "id": "16880.756",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1498",
+    "task": "tutorialTalk"
+  },
+  {
+    "kind": "request",
+    "id": "16880.1503",
+    "task": "tutorialDesk"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1503",
+    "task": "tutorialDesk",
+    "status": 200
+  },
+  {
+    "kind": "response",
+    "id": "16880.1498",
+    "task": "tutorialTalk",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1504",
+    "task": "tutorialTalk"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1504",
+    "task": "tutorialTalk",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1506",
+    "task": "tutorialTalk"
+  },
+  {
+    "kind": "request",
+    "id": "16880.1510",
+    "task": "tutorialTalk"
+  },
+  {
+    "kind": "request",
+    "id": "16880.1511",
+    "task": "tutorialHint"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1506",
+    "task": "tutorialTalk",
+    "status": 200
+  },
+  {
+    "kind": "response",
+    "id": "16880.1510",
+    "task": "tutorialTalk",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1512",
+    "task": "tutorialTalk"
+  },
+  {
+    "kind": "request",
+    "id": "16880.1514",
+    "task": "tutorialStatement"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1511",
+    "task": "tutorialHint",
+    "status": 200
+  },
+  {
+    "kind": "response",
+    "id": "16880.1514",
+    "task": "tutorialStatement",
+    "status": 200
+  },
+  {
+    "kind": "response",
+    "id": "16880.1512",
+    "task": "tutorialTalk",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1528",
+    "task": "tutorialStatement"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1528",
+    "task": "tutorialStatement",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1539",
+    "task": "tutorialTalk"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1539",
+    "task": "tutorialTalk",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1546",
+    "task": "tutorialStatement"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1546",
+    "task": "tutorialStatement",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1556",
+    "task": "tutorialTalk"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1556",
+    "task": "tutorialTalk",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1559",
+    "task": "tutorialStatement"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1559",
+    "task": "tutorialStatement",
+    "status": 200
+  },
+  {
+    "kind": "request",
+    "id": "16880.1569",
+    "task": "tutorialGrade"
+  },
+  {
+    "kind": "response",
+    "id": "16880.1569",
+    "task": "tutorialGrade",
+    "status": 200
+  }
+]

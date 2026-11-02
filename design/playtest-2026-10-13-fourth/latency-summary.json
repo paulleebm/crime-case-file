@@ -1,0 +1,173 @@
+{
+  "totalQuestions": 45,
+  "uiAiAll": {
+    "n": 42,
+    "meanMs": 5004.314285732451,
+    "p50Ms": 4418.099999904633,
+    "p90Ms": 6471.900000095367,
+    "minMs": 2513.899999856949,
+    "maxMs": 18298.700000047684,
+    "totalMs": 210181.20000076294,
+    "over5s": 11,
+    "over8s": 3
+  },
+  "uiAiMain": {
+    "n": 39,
+    "meanMs": 5039.6615384786555,
+    "p50Ms": 4418.099999904633,
+    "p90Ms": 6660.599999904633,
+    "minMs": 2513.899999856949,
+    "maxMs": 18298.700000047684,
+    "totalMs": 196546.80000066757,
+    "over5s": 10,
+    "over8s": 3
+  },
+  "uiNonAi": {
+    "n": 3,
+    "meanMs": 42.333333333333336,
+    "p50Ms": 42.299999952316284,
+    "p90Ms": 43.200000047683716,
+    "minMs": 41.5,
+    "maxMs": 43.200000047683716,
+    "totalMs": 127,
+    "over5s": 0,
+    "over8s": 0
+  },
+  "recoveredAttemptCount": 93,
+  "runtimeAttemptCount": 93,
+  "failedAttempts": 11,
+  "errors": [
+    {
+      "task": "write",
+      "ms": 2210,
+      "code": 429
+    },
+    {
+      "task": "write",
+      "ms": 2330,
+      "code": 429
+    },
+    {
+      "task": "write",
+      "ms": 1977,
+      "code": 429
+    },
+    {
+      "task": "interpret",
+      "ms": 2191,
+      "code": 429
+    },
+    {
+      "task": "write",
+      "ms": 1858,
+      "code": 429
+    },
+    {
+      "task": "write",
+      "ms": 1642,
+      "code": 429
+    },
+    {
+      "task": "write",
+      "ms": 1604,
+      "code": 429
+    },
+    {
+      "task": "interpret",
+      "ms": 1803,
+      "code": 429
+    },
+    {
+      "task": "interpret",
+      "ms": 1913,
+      "code": 429
+    },
+    {
+      "task": "write",
+      "ms": 1547,
+      "code": 429
+    },
+    {
+      "task": "interpret",
+      "ms": 2035,
+      "code": 429
+    }
+  ],
+  "tasks": {
+    "interpret": {
+      "attempts": 46,
+      "failures": 4,
+      "successful": 42,
+      "n": 42,
+      "meanMs": 2480.714285714286,
+      "p50Ms": 2346,
+      "p90Ms": 2881,
+      "minMs": 1957,
+      "maxMs": 5577,
+      "totalMs": 104190,
+      "over5s": 1,
+      "over8s": 0
+    },
+    "write": {
+      "attempts": 29,
+      "failures": 7,
+      "successful": 22,
+      "n": 22,
+      "meanMs": 2078.7272727272725,
+      "p50Ms": 2055,
+      "p90Ms": 2304,
+      "minMs": 1720,
+      "maxMs": 2533,
+      "totalMs": 45732,
+      "over5s": 0,
+      "over8s": 0
+    },
+    "voice": {
+      "attempts": 18,
+      "failures": 0,
+      "successful": 18,
+      "n": 18,
+      "meanMs": 1870.7222222222222,
+      "p50Ms": 1773,
+      "p90Ms": 2363,
+      "minMs": 1578,
+      "maxMs": 2427,
+      "totalMs": 33673,
+      "over5s": 0,
+      "over8s": 0
+    },
+    "casual": {
+      "attempts": 0,
+      "failures": 0,
+      "successful": 0
+    }
+  },
+  "userFailures": 0,
+  "writtenAnswers": 21,
+  "missing": [
+    "A-F2",
+    "A-F9",
+    "A-02",
+    "E-14",
+    "C-08",
+    "C-05"
+  ],
+  "result": {
+    "grade": "perfect",
+    "culpritOk": true,
+    "correct": {
+      "alibi": true,
+      "car": true,
+      "glass": true,
+      "motive": true
+    },
+    "reached": 5
+  },
+  "checks": {
+    "phoneNegationAccepted": true,
+    "phoneSource": "…휴대폰은 받았습니다. 비서 전화도 도현이가 받지 말라 해서 제가 끊었어요. 글은 그 친구가 썼습니다.",
+    "phoneResponse": "휴대폰에는 손도 대지 않았습니다. 그 친구가 제 휴대폰에서 글을 보고 옮겨 적은 것입니다. 비서 전화도 도현이가 받지 말라고 해서 제가 끊었습니다.",
+    "evidenceAssertionMisrouted": "owned",
+    "misroutedInvestigation": "mileage"
+  }
+}

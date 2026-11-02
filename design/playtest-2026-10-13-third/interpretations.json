@@ -1,0 +1,152 @@
+[
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"restate\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[],\"quote\":\"\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-M19\"],\"quote\":\"“내일 9시, 늦지 마.” 그게 마지막이었어요.\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:04:30.766Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F8\"],\"quote\":\"12시 반쯤 자료를 들고 올라갔어요. 노크해도 대답이 없어서 맡아 둔 보조 카드로 열었어요. 대표님은 소파에 기대 앉아 계셨는…\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-D13\"],\"quote\":\"소파에 등을 기대고 고개가 한쪽으로 기울어 계셨어요. 탁자엔 위스키, 잔 두 개, 녹은 얼음통, 뜯긴 약 포장, 휴대폰이 있었…\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-D14\"],\"quote\":\"이름을 불러도 대답이 없어서 손목을 짚었어요. 맥이 안 느껴졌어요. 바로 프런트에 전화하고 119에 신고했어요. 그 뒤로는 아…\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:05:06.718Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F12a\"],\"quote\":\"내일 감사 때 대표님이 쓰실 회계 자료예요.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F7\"],\"quote\":\"10시 15분에 객실을 나와서 1층 비즈니스 센터에서 자료를 정리했어요.\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T09:05:35.646Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F2\"],\"quote\":\"다투긴요. 업무 이야기를 하다 목소리가 조금 커졌을 수는 있어요. 그게 다예요.\"},{\"kind\":\"challenge\",\"targetClaimIds\":[\"A-01.6\"],\"citedEvidenceIds\":[\"E-16\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:06:05.067Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F2\"],\"quote\":\"다투긴요. 업무 이야기를 하다 목소리가 조금 커졌을 수는 있어요. 그게 다예요.\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T09:06:38.850Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"A-01.1\",\"A-F2\"],\"citedEvidenceIds\":[\"E-16\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T09:06:52.235Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-D03b\",\"A-F12\"],\"quote\":\"도담컨설팅 용역이 실제로 수행됐다는 확인서요. 저는 그 용역 결과물을 본 적이 없어요. 본 적 없는 걸 확인했다고 쓸 수는 없…\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:07:42.301Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F1\"],\"quote\":\"도현이와는 대학 동기입니다. 20년 넘게 서경개발을 같이 키웠죠.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F25\"],\"quote\":\"결재란 형식입니다. 실무는 도현이가 다 챙겼지요.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[],\"direct\":false,\"quote\":\"\"}],\"confidence\":0.85}",
+    "timestamp": "2026-10-13T09:08:14.080Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F7\"],\"quote\":\"의견이 달랐던 건 사실입니다. 오래 같이 일하면 그런 날도 있죠. 돈 문제는 아닙니다.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F4\"],\"quote\":\"9시 35분쯤 같이 올라가서 회사 일을 이야기했습니다. 내년 사업 계획 같은 것들요.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F5\"],\"quote\":\"10시 5분에 방에서 나와 로비에서 전화를 몇 통 했고, 10시 반에 지하에서 제 차로 나갔습니다. 그 뒤로 호텔엔 오지 않았…ثر\",\"direct\":false}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:08:42.932Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-01.6\"],\"citedEvidenceIds\":[\"E-14\"],\"factIds\":[],\"quote\":\"\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[\"E-14\"],\"factIds\":[\"C-F7\"],\"quote\":\"의견이 달랐던 건 사실입니다. 오래 같이 일하면 그런 날도 있죠. 돈 문제는 아닙니다.\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:09:10.572Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F26\"],\"quote\":\"제가 나올 때 도현이는 오늘 일정은 끝났다고 했습니다. 더 만날 사람도 없다고요. 그래서 혼자 두고 나온 겁니다.\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:10:13.957Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-01.8\",\"C-F26\"],\"citedEvidenceIds\":[\"E-07\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:11:57.281Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"B-F5\"],\"quote\":\"입고한 뒤로 한 번도 안 움직였어요.\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T09:15:31.871Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"B-01.4\",\"B-F5\"],\"citedEvidenceIds\":[\"E-09\"],\"factIds\":[],\"quote\":\"\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[\"E-09\"],\"factIds\":[\"B-F22\"],\"quote\":\"키는 보관함에 그대로 있었어요. 아무도 안 꺼냈어요.\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:20:20.945Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"B-01.4\",\"B-F5\"],\"citedEvidenceIds\":[\"E-10\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:22:29.917Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"B-F5\",\"B-01.4\"],\"citedEvidenceIds\":[\"E-11\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:23:23.300Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-01.4\",\"C-01.3\",\"C-F5\"],\"citedEvidenceIds\":[\"E-12\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:25:54.570Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-02.2\"],\"citedEvidenceIds\":[\"E-07\",\"E-13\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T09:27:16.529Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-04.5\"],\"citedEvidenceIds\":[\"E-13\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T09:28:19.959Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-09.2\"],\"citedEvidenceIds\":[\"E-04\",\"E-15\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:29:21.661Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-04.4\",\"C-09.2\"],\"citedEvidenceIds\":[\"E-15\",\"E-04\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T09:33:43.742Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-04.3\"],\"citedEvidenceIds\":[\"E-03\",\"E-13\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.98}",
+    "timestamp": "2026-10-13T09:34:08.993Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F9\"],\"quote\":\"제가 대표님 약을 챙겨 드린 적은 많아요. 혈압약하고 위장약이요. 그런데 수면제는 본 적이 없습니다. 적어도 평소에 드시던 약…\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T09:34:45.677Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-04.3\"],\"citedEvidenceIds\":[\"A-F9\",\"E-13\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:35:09.111Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-07.1\",\"C-07.3\",\"C-08.1\",\"C-09.2\"],\"citedEvidenceIds\":[\"E-15\",\"E-04\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T09:35:31.202Z",
+    "url": "http://127.0.0.1:5195/src/ui/Interrogation.tsx"
+  }
+]

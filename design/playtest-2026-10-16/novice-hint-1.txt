@@ -1,0 +1,214 @@
+- button "처음 화면으로":
+- generic: 사건명
+- generic: 호텔 로베르 집무실 사건
+- generic: 사건 번호
+- generic: 2026-도심-1012
+- generic: 확보 자료
+- generic: 19건
+- button "◀":
+  - text: ◀
+- generic "배경음악 채널":
+  - generic: FM 97.3
+  - generic: 느와르 피아노
+- button "▶":
+  - text: ▶
+- generic: 음악
+- slider "음악 음량":
+- generic: 효과음
+- slider "효과음 음량":
+- button "힌트" [active]:
+  - text: 힌트
+- generic: 힌트
+- generic: 매입 계약·입고 기록
+- list:
+  - listitem: 자료함에 아직 읽지 않은 「매입 계약·입고·보관 원본」이 있다. 흉기가 매입점에 들어간 때부터의 기록이니 먼저 읽어 보자.
+- button "더 자세히":
+  - text: 더 자세히
+- generic: 용의자
+- button "류준서 회장의 외아들 · 발견·신고":
+  - generic: 류준서
+  - generic: 회장의 외아들 · 발견·신고
+- button "서민아 행사 지원 직원":
+  - generic: 서민아
+  - generic: 행사 지원 직원
+- button "문태준 호텔 총지배인":
+  - generic: 문태준
+  - generic: 호텔 총지배인
+- generic: 수사팀
+- button "수사팀 ● 결과 도착":
+  - generic: 수사팀
+  - generic: ● 결과 도착
+- generic: 자료
+- generic: 현장
+- button "├ 사건 개요":
+  - generic: ├
+  - generic: 사건 개요
+- button "├ 집무실 평면도":
+  - generic: ├
+  - generic: 집무실 평면도
+- button "├ 발견 개요":
+  - generic: ├
+  - generic: 발견 개요
+- button "├ 인물 소개":
+  - generic: ├
+  - generic: 인물 소개
+- button "├ 현장 감식 결과 새 자료":
+  - generic: ├
+  - generic: 현장 감식 결과
+  - generic: 새 자료
+- button "└ 진열대 기념품 대장 새 자료":
+  - generic: └
+  - generic: 진열대 기념품 대장
+  - generic: 새 자료
+- generic: 감정
+- button "├ 사인 감정":
+  - generic: ├
+  - generic: 사인 감정
+- button "├ 독성·약물 검사 새 자료":
+  - generic: ├
+  - generic: 독성·약물 검사
+  - generic: 새 자료
+- button "├ 회수 트로피·치명 손상 대조":
+  - generic: ├
+  - generic: 회수 트로피·치명 손상 대조
+- button "├ 트로피 표면 지문 검사":
+  - generic: ├
+  - generic: 트로피 표면 지문 검사
+- button "└ 트로피 지문 인물 대조":
+  - generic: └
+  - generic: 트로피 지문 인물 대조
+- generic: 통화·문자
+- button "├ 준서 휴대폰의 아버지 문자":
+  - generic: ├
+  - generic: 준서 휴대폰의 아버지 문자
+- button "└ 통화 기록·녹취":
+  - generic: └
+  - generic: 통화 기록·녹취
+- generic: 출입·동선
+- button "├ 집무실 문 열림 기록 원본":
+  - generic: ├
+  - generic: 집무실 문 열림 기록 원본
+- button "├ 엘리베이터 운행 기록 새 자료":
+  - generic: ├
+  - generic: 엘리베이터 운행 기록
+  - generic: 새 자료
+- button "├ 매입 계약·입고·보관 원본 새 자료":
+  - generic: ├
+  - generic: 매입 계약·입고·보관 원본
+  - generic: 새 자료
+- button "├ 매입점 업무 경위 확인 새 자료":
+  - generic: ├
+  - generic: 매입점 업무 경위 확인
+  - generic: 새 자료
+- button "└ 온정귀금속 방문 대장 새 자료":
+  - generic: └
+  - generic: 온정귀금속 방문 대장
+  - generic: 새 자료
+- generic: 돈·인물
+- button "├ 횡령 소명 요청·정산 자료 새 자료":
+  - generic: ├
+  - generic: 횡령 소명 요청·정산 자료
+  - generic: 새 자료
+- button "├ 회계팀 정산 점검 메모 새 자료":
+  - generic: ├
+  - generic: 회계팀 정산 점검 메모
+  - generic: 새 자료
+- button "└ 변호사 상담 기록·유언 변경 초안":
+  - generic: └
+  - generic: 변호사 상담 기록·유언 변경 초안
+- generic: 근거 트레이
+- generic: 자료·진술서·대화의 밑줄 친 문장을 누르면 여기에 모인다. 심문 대화창으로 끌어다 놓아 첨부한다.
+- button "사건 재구성 · 제출":
+  - generic: 사건 재구성 · 제출
+- generic "현장 · 발견 개요":
+  - generic: 현장 · 발견 개요
+  - generic "닫기": ✕
+- generic "용의자 · 서민아":
+  - generic: 용의자 · 서민아
+  - generic "닫기": ✕
+- generic "통화·문자 · 통화 기록·녹취":
+  - generic: 통화·문자 · 통화 기록·녹취
+  - generic "닫기": ✕
+- generic "수사팀":
+  - generic: 수사팀
+  - generic "닫기": ✕
+- generic "출입·동선 · 집무실 문 열림 기록 원본":
+  - generic: 출입·동선 · 집무실 문 열림 기록 원본
+  - generic "닫기": ✕
+- generic "돈·인물 · 변호사 상담 기록·유언 변경 초안":
+  - generic: 돈·인물 · 변호사 상담 기록·유언 변경 초안
+  - generic "닫기": ✕
+- generic "감정 · 트로피 지문 인물 대조":
+  - generic: 감정 · 트로피 지문 인물 대조
+  - generic "닫기": ✕
+- text: 서민아
+- generic: 행사 지원 직원 · 27세
+- generic "지금까지 인정한 범위에 따른 태도": 긴장 · 차분
+- text: 참고인
+- heading "진 술 서" [level=2]
+- table:
+  - rowgroup:
+    - row "사건 번호 2026-도심-1012":
+      - rowheader "사건 번호"
+      - cell "2026-도심-1012"
+    - row "작성 일시 2026. 10. 14. 10:10":
+      - rowheader "작성 일시"
+      - cell "2026. 10. 14. 10:10"
+    - row "성명 서민아 · 1999. 5. 22. (27세)":
+      - rowheader "성명"
+      - cell "서민아 · 1999. 5. 22. (27세)"
+    - row "직업 호텔 로베르 행사 지원 직원 (입사 2년 3개월)":
+      - rowheader "직업"
+      - cell "호텔 로베르 행사 지원 직원 (입사 2년 3개월)"
+    - row "주소 · 연락처 서울 (이하 비공개) · 010-****-0522":
+      - rowheader "주소 · 연락처"
+      - cell "서울 (이하 비공개) · 010-****-0522"
+    - row "피해자와의 관계 호텔 직원":
+      - rowheader "피해자와의 관계"
+      - cell "호텔 직원"
+    - row "작성 장소 도심경찰서 강력팀 면담실":
+      - rowheader "작성 장소"
+      - cell "도심경찰서 강력팀 면담실"
+- generic: 본인은 2026년 10월 12일 서울 도심 호텔 로베르 3층 집무실에서 발생한 회장 류정환 사망 사건에 관하여 아는 바를 다음과 같이 사실대로 진술합니다.
+- heading "一. 사건 당일 근무" [level=4]
+- paragraph: 6시 10분에 직원 식당에서 저녁을 먹었습니다.
+- paragraph: 7시 40분부터 3층 회의 준비 공간에서 행사 자료와 음료 수량을 맞췄습니다.
+- paragraph: 트로피를 매입점에 전한 뒤 준비 공간으로 돌아와 일했습니다.
+- paragraph: 9시부터는 회의실에 있었습니다.
+- heading "二. 심부름과 카드" [level=4]
+- paragraph: 준서 씨 부탁으로 8시 15분쯤 로비에서 카드를 받았습니다.
+- paragraph: 그 카드로 집무실에서 트로피를 가져다 매입점에 전했습니다.
+- heading "三. 집무실 방문" [level=4]
+- paragraph: 집무실에 들어갔을 때 회장님은 안 계셨고 방은 비어 있었습니다.
+- paragraph: 화장실 문은 닫혀 있었습니다.
+- paragraph: 집무실에 1분 남짓 있다가 트로피만 두 손으로 집어서 바로 나왔습니다.
+- paragraph: 트로피를 맨손으로 들었기 때문에 제 지문이 있는 것은 당연합니다.
+- paragraph: 집무실에 들어간 정확한 시각은 말씀드릴 수 없고, 8시 40분은 넘었던 것 같습니다.
+- paragraph: 회장님을 때린 적은 없습니다.
+- heading "四. 그 밖의 진술" [level=4]
+- paragraph: 그날 회장님을 뵙지 못했습니다.
+- paragraph: 총지배인님이 몇 시에 나오셨는지는 제가 본 것이 아니라서 모릅니다.
+- generic: 위 진술 내용은 사실과 다름없음을 확인하며, 자필로 서명합니다.
+- generic: 2026. 10. 14.
+- generic: 진술인 서 민 아
+- text: 인
+- generic: 서민아
+- generic: 네, 협조하겠습니다. 물어보세요.
+- generic: 수사관
+- generic: 그날 저녁 무슨 일을 했나요? 회장님을 보셨나요?
+- generic: 서민아
+- generic: 6시 10분에 직원 식당에서 저녁을 먹고, 7시 40분부터 3층 회의 준비 공간에서 행사 자료랑 음료 수량을 맞췄어요. 중간에 준서 씨 부탁으로 8시 15분쯤 로비에서 카드를 받았고, 그 카드로 집무실에서 트로피를 가져다 매입점에 전했어요.
+- generic: 서민아
+- generic: 그다음 준비 공간으로 돌아와 일하다가 9시부터는 회의실에 있었고요. 회장님은 그날 뵙지 못했어요.
+- generic: 서민아
+- generic: 집무실에 들어갔을 때도 안 계셨고, 화장실 문은 닫혀 있었어요.
+- generic: 수사관
+- generic: 흉기에는 당신 지문만 있대요. 태준 씨는 8시45분에 나올 때 회장이 멀쩡했다고 하고요. 그 뒤 혼자 방에 있었던 당신이 때린 건 아닌가요? 정말 트로피만 들고 나온 건가요?
+- generic: 서민아
+- generic: 아니에요. 제가 회장님을 때렸다니, 그런 일은 없었어요. 들어갔을 때 방은 비어 있었고, 1분 남짓 트로피만 두 손으로 집어서 바로 나왔어요.
+- generic: 서민아
+- generic: 맨손으로 들었으니 제 지문이 있는 건 당연한데, 총지배인님이 몇 시에 나오셨는지는 제가 본 게 아니라서 모르겠어요. 제 기억으로는 8시 40분은 넘었던 것 같은데, 정확한 시각은 말씀드릴 수가 없어요.
+- textbox "서민아에게 질문하기 · 근거는 트레이에서 끌어다 놓는다"
+- button "말하기":
+  - text: 말하기
+- text: "새 자료: 준서 휴대폰의 아버지 문자"

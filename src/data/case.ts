@@ -1,0 +1,11 @@
+import * as hotel from './hotelCase';
+
+const selected = hotel;
+export const {
+  CASE_ID, CASE_TITLE, CASE_SUBTITLE, CASE_NO, POLICE, VICTIM, BRIEFING, FORM_LEAD,
+  PERSONS, EVIDENCE, STATEMENTS, FACTS, CHALLENGES, ROOMS, MAP_LINKS, PLACES,
+  EVIDENCE_TREE, EPI_START, TRUTH_TRACKS, EPILOGUE_END, VICTIM_GONE, TRUTH_EVENTS,
+  INITIAL_OWNED, AFTERWORD, REPORT_QUESTIONS, STEP_IDS, NO_CULPRIT, ALT_QUESTIONS,
+  isNoCulprit, questionsFor, CULPRIT, CONFESSION, personOf,
+} = selected;
+export type { NoCulprit, AltQuestion } from './hotelCase';

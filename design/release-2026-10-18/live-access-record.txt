@@ -1,0 +1,107 @@
+- button "처음 화면으로":
+- generic: 사건명
+- generic: 다온 인테리어 상담실 사건
+- generic: 사건 번호
+- generic: 2026-도심-1016
+- generic: 확보 자료
+- generic: 5건
+- button "◀":
+  - text: ◀
+- generic "배경음악 채널":
+  - generic: FM 97.3 · 꺼짐
+  - generic: 느와르 피아노
+- button "▶":
+  - text: ▶
+- generic: 음악
+- slider "음악 음량":
+- generic: 효과음
+- slider "효과음 음량":
+- button "힌트":
+  - text: 힌트
+- generic: 용의자
+- button "윤해린 초상 윤해린 ● 답변 도착":
+  - img "윤해린 초상"
+  - generic: 윤해린
+  - generic: ● 답변 도착
+- button "강도현 초상 강도현 공동운영자 · 최초 신고자":
+  - img "강도현 초상"
+  - generic: 강도현
+  - generic: 공동운영자 · 최초 신고자
+- generic: 수사팀
+- button "수사팀 ● 결과 도착":
+  - generic: 수사팀
+  - generic: ● 결과 도착
+- generic: 자료
+- generic: 현장
+- button "├ 사건 개요":
+  - generic: ├
+  - generic: 사건 개요
+- button "├ 사무실 평면도":
+  - generic: ├
+  - generic: 사무실 평면도
+- button "├ 발견 개요 · 현장 기록":
+  - generic: ├
+  - generic: 발견 개요 · 현장 기록
+- button "└ 현장·흉기 감식 새 자료":
+  - generic: └
+  - generic: 현장·흉기 감식
+  - generic: 새 자료
+- generic: 출입·동선
+- button "└ 사무실 현관 입실 기록" [active]:
+  - generic: └
+  - generic: 사무실 현관 입실 기록
+- generic: 통화·계약금
+- button "├ 피해자·윤해린 통화 내역·녹음 새 자료":
+  - generic: ├
+  - generic: 피해자·윤해린 통화 내역·녹음
+  - generic: 새 자료
+- button "└ 계약금 이체 내역 새 자료":
+  - generic: └
+  - generic: 계약금 이체 내역
+  - generic: 새 자료
+- text: 근거 트레이
+- generic: 자료·진술서·대화의 밑줄 친 문장을 누르면 여기에 모인다. 심문 대화창으로 끌어다 놓아 첨부한다.
+- button "메모장":
+  - generic: 메모장
+- button "사건 재구성 · 제출":
+  - generic: 사건 재구성 · 제출
+- generic "현장 · 사건 개요":
+  - generic: 현장 · 사건 개요
+  - generic "닫기":
+- generic "용의자 · 강도현":
+  - generic: 용의자 · 강도현
+  - generic "닫기":
+- generic "수사팀":
+  - generic: 수사팀
+  - generic "닫기":
+- generic "출입·동선 · 사무실 현관 입실 기록":
+  - generic: 출입·동선 · 사무실 현관 입실 기록
+  - generic "닫기":
+- heading "사무실 현관 입실 기록" [level=3]
+- generic: TU-E04 · 기록 출력물 · 수사팀 확인
+- generic: 밑줄 친 문장을 누르면 근거 트레이에 담긴다.
+- paragraph: 18:53 — 강도현 · 본인 지문 인증으로 현관 개방.
+- paragraph: 19:05 — 강도현 · 본인 지문 인증으로 현관 개방.
+- paragraph: 밖에서 지문으로 문을 연 기록이다. 안에서 나가는 행동은 기록되지 않아 퇴실 시각은 알 수 없다.
+- alert:
+  - generic: 수사팀 · 결과 도착
+  - button "닫기":
+  - generic: 수사 결과 3건
+  - list:
+    - text: 현장·흉기 감식
+    - text: 사무실 현관 입실 기록
+    - text: 피해자·윤해린 통화 내역·녹음
+  - button "나중에 읽기":
+    - text: 나중에 읽기
+  - button "바로 읽기":
+    - text: 바로 읽기
+- alert:
+  - img "윤해린 초상"
+  - generic: 윤해린 · 답변 도착
+  - button "닫기":
+  - generic: “어제 저녁 6시 20분쯤 다온 인테리어에 찾아가서 한정우 대표님과 계약금 환불 문제로 이야기했습니다. 공사가 늦어져서 계약을 …”
+  - button "나중에 보기":
+    - text: 나중에 보기
+  - button "바로 보기":
+    - text: 바로 보기
+- text: "새 자료: 계약금 이체 내역"

@@ -1,0 +1,18 @@
+{
+  "method": "실제 읽기 및 판단 대기를 포함한 모의 플레이. 배수 환산 없음. 수사 시작부터 결과 확인까지, 중단 및 인프라 복구 제외.",
+  "expertActiveMs": 1664248,
+  "noviceActiveMs": 2790080,
+  "noviceRawMs": 15994172,
+  "novicePause": {
+    "from": "2026-10-14T22:01:03.189Z",
+    "to": "2026-10-15T01:39:45.650Z",
+    "ms": 13122461
+  },
+  "noviceInfrastructureMs": 81631,
+  "expertStart": "2026-10-14T21:06:55.428Z",
+  "expertBeforePauseMs": 1344640,
+  "expertResume": "2026-10-14T21:41:33.208Z",
+  "expertCompleted": "2026-10-14T21:46:52.816Z",
+  "noviceStart": "2026-10-14T21:48:22.324Z",
+  "noviceCompleted": "2026-10-15T02:14:56.496Z"
+}

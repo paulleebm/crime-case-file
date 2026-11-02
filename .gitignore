@@ -1,0 +1,29 @@
+node_modules
+dist
+storybook-static
+*.tsbuildinfo
+functions/lib
+
+# 환경 변수·비밀 값 (예시 파일만 올린다)
+.env
+.env.local
+.env.*.local
+functions/.env
+functions/.env.*
+!functions/.env.example
+*.local.txt
+
+# Firebase·로그·로컬 데이터
+.firebase
+*.log
+/dev-logs
+/dev-data
+/logs
+
+# 용량이 큰 원본 이미지 (배포 자산은 src/assets, public)
+design/evidence-production
+design/og-preview
+
+# 도구
+.omc
+.claude

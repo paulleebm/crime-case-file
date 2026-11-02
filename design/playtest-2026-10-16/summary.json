@@ -1,0 +1,12 @@
+{
+  "expert": {
+    "score": 8,
+    "seconds": 1179,
+    "result": "culprit correct;4 correct;1 partial;solved"
+  },
+  "novice": {
+    "score": 7.5,
+    "seconds": 1861,
+    "result": "culprit correct;5 correct;perfect"
+  }
+}

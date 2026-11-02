@@ -1,0 +1,144 @@
+- button "처음 화면으로":
+- generic: 사건명
+- generic: 다온 인테리어 상담실 사건
+- generic: 사건 번호
+- generic: 2026-도심-1016
+- generic: 확보 자료
+- generic: 5건
+- button "◀":
+  - text: ◀
+- generic "배경음악 채널":
+  - generic: FM 97.3 · 꺼짐
+  - generic: 느와르 피아노
+- button "▶":
+  - text: ▶
+- generic: 음악
+- slider "음악 음량":
+- generic: 효과음
+- slider "효과음 음량":
+- button "힌트":
+  - text: 힌트
+- generic: 용의자
+- button "윤해린 초상 윤해린 환불을 요구한 고객":
+  - img "윤해린 초상"
+  - generic: 윤해린
+  - generic: 환불을 요구한 고객
+- button "강도현 초상 강도현 공동운영자 · 최초 신고자":
+  - img "강도현 초상"
+  - generic: 강도현
+  - generic: 공동운영자 · 최초 신고자
+- generic: 수사팀
+- button "수사팀 ● 결과 도착":
+  - generic: 수사팀
+  - generic: ● 결과 도착
+- generic: 자료
+- generic: 현장
+- button "├ 사건 개요":
+  - generic: ├
+  - generic: 사건 개요
+- button "├ 사무실 평면도":
+  - generic: ├
+  - generic: 사무실 평면도
+- button "├ 발견 개요 · 현장 기록":
+  - generic: ├
+  - generic: 발견 개요 · 현장 기록
+- button "└ 현장·흉기 감식 새 자료":
+  - generic: └
+  - generic: 현장·흉기 감식
+  - generic: 새 자료
+- generic: 출입·동선
+- button "└ 사무실 현관 입실 기록":
+  - generic: └
+  - generic: 사무실 현관 입실 기록
+- generic: 통화·계약금
+- button "├ 피해자·윤해린 통화 내역·녹음":
+  - generic: ├
+  - generic: 피해자·윤해린 통화 내역·녹음
+- button "└ 계약금 이체 내역 새 자료":
+  - generic: └
+  - generic: 계약금 이체 내역
+  - generic: 새 자료
+- text: 근거 트레이
+- generic: 자료·진술서·대화의 밑줄 친 문장을 누르면 여기에 모인다. 심문 대화창으로 끌어다 놓아 첨부한다.
+- button "메모장":
+  - generic: 메모장
+- button "사건 재구성 · 제출":
+  - generic: 사건 재구성 · 제출
+- generic "현장 · 사건 개요":
+  - generic: 현장 · 사건 개요
+  - generic "닫기":
+- generic "용의자 · 강도현":
+  - generic: 용의자 · 강도현
+  - generic "닫기":
+- generic "수사팀":
+  - generic: 수사팀
+  - generic "닫기":
+- generic "출입·동선 · 사무실 현관 입실 기록":
+  - generic: 출입·동선 · 사무실 현관 입실 기록
+  - generic "닫기":
+- generic "통화·계약금 · 피해자·윤해린 통화 내역·녹음":
+  - generic: 통화·계약금 · 피해자·윤해린 통화 내역·녹음
+  - generic "닫기":
+- generic "사건 재구성":
+  - generic: 사건 재구성
+  - generic "닫기":
+- text: 범인을 고르고, 그날 밤의 범행을 육하원칙에 따라 글로 정리한다.
+- text: "각 칸은 핵심을 담은 한 문장이면 충분하다. 예: “상담실에서 문진으로 머리를 쳤다.”"
+- text: 문항마다 무엇을 쓰면 되는지 적어 두었다. 그 핵심을 담으면 정답이다.
+- text: 정확한 용어나 분 단위 시각까지 맞힐 필요는 없다.
+- text: 핵심이 일부만 맞거나 흐릿하면 세모(부분 정답)를 받는다.
+- text: 언제든 다시 와서 쓰고 고칠 수 있다. 쓴 내용은 저장된다.
+- text: ‘사건 해결’을 누르면 모든 답을 한 번에 채점하고 수사가 끝난다. 확신이 설 때까지 수사를 계속해도 된다.
+- heading "사 건 재 구 성" [level=3]
+- generic: 다온 인테리어 상담실 사건
+- heading "1 누가 범인은 누구인가?" [level=4]:
+  - generic: "1"
+  - generic: 누가
+  - text: 범인은 누구인가?
+- button "윤해린 초상 윤해린":
+  - img "윤해린 초상"
+  - text: 윤해린
+- button "강도현 초상 강도현":
+  - img "강도현 초상"
+  - text: 강도현
+- button "자살":
+  - text: 자살
+- button "사고사":
+  - text: 사고사
+- heading "2 언제 범행은 언제 일어났나?" [level=4]:
+  - generic: "2"
+  - generic: 언제
+  - text: 범행은 언제 일어났나?
+- generic: 마지막 생존 시점과 발견 시점을 근거로 시간대를 적는다.
+- textbox "알아낸 것을 내 말로 쓴다": 대표가 18시 58분 해린과 통화를 마친 뒤부터 19시 6분 신고 사이이다.
+- heading "3 무엇으로 어디서 무엇으로 공격했나?" [level=4]:
+  - generic: "3"
+  - generic: 무엇으로
+  - text: 어디서 무엇으로 공격했나?
+- generic: 장소와 흉기, 공격한 행동을 적는다.
+- textbox "알아낸 것을 내 말로 쓴다": 상담실에서 유리 문진으로 대표의 머리를 쳤다.
+- heading "4 그 뒤 범행 뒤 무엇을 숨기려 했나?" [level=4]:
+  - generic: "4"
+  - generic: 그 뒤
+  - text: 범행 뒤 무엇을 숨기려 했나?
+- generic: 흉기 처리와 발견 경위에 관한 거짓말을 적는다.
+- textbox "알아낸 것을 내 말로 쓴다": 문진 지문을 닦고 18시 53분 방문을 숨기며 발견자인 것처럼 다시 들어와 신고했다.
+- heading "5 왜 피해자와 왜 다퉜나?" [level=4]:
+  - generic: "5"
+  - generic: 왜
+  - text: 피해자와 왜 다퉜나?
+- generic: 고객이 낸 돈과 공동운영자 사이의 문제를 적는다.
+- textbox "알아낸 것을 내 말로 쓴다": 해린의 계약금 500만 원을 개인 계좌로 받아 빚을 막는 데 쓴 사실이 드러나 대표와 다퉜다.
+- button "사건 해결":
+  - text: 사건 해결
+- dialog:
+  - heading "결론을 제출한다" [level=3]
+  - paragraph:
+    - text: 기회는 한 번뿐이다.
+    - text: 제출하면 모든 답을 한 번에 채점하고 수사가 끝난다. 다시 고칠 수 없다.
+  - paragraph: "지목한 범인: 강도현"
+  - button "계속 수사" [disabled]:
+    - text: 계속 수사
+  - button "채점 중…" [disabled]:
+    - text: 채점 중…
+- text: 강도현의 진술서가 정정되었다

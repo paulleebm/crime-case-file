@@ -1,0 +1,72 @@
+- button "처음 화면으로":
+- generic: 사건명
+- generic: 다온 인테리어 상담실 사건
+- generic: 사건 번호
+- generic: 2026-도심-1016
+- generic: 확보 자료
+- generic: 1건
+- button "◀":
+  - text: ◀
+- generic "배경음악 채널":
+  - generic: FM 97.3 · 꺼짐
+  - generic: 느와르 피아노
+- button "▶":
+  - text: ▶
+- generic: 음악
+- slider "음악 음량":
+- generic: 효과음
+- slider "효과음 음량":
+- button "힌트":
+  - text: 힌트
+- generic: 용의자
+- button "윤해린 초상 윤해린 환불을 요구한 고객":
+  - img "윤해린 초상"
+  - generic: 윤해린
+  - generic: 환불을 요구한 고객
+- button "강도현 초상 강도현 공동운영자 · 최초 신고자":
+  - img "강도현 초상"
+  - generic: 강도현
+  - generic: 공동운영자 · 최초 신고자
+- generic: 수사팀
+- button "수사팀 원본 조회 · 감정 요청":
+  - generic: 수사팀
+  - generic: 원본 조회 · 감정 요청
+- generic: 자료
+- generic: 현장
+- button "├ 사건 개요":
+  - generic: ├
+  - generic: 사건 개요
+- button "├ 사무실 평면도":
+  - generic: ├
+  - generic: 사무실 평면도
+- button "└ 발견 개요 · 현장 기록":
+  - generic: └
+  - generic: 발견 개요 · 현장 기록
+- text: 근거 트레이
+- generic: 자료·진술서·대화의 밑줄 친 문장을 누르면 여기에 모인다. 심문 대화창으로 끌어다 놓아 첨부한다.
+- button "메모장":
+  - generic: 메모장
+- button "사건 재구성 · 제출":
+  - generic: 사건 재구성 · 제출
+- generic "현장 · 사건 개요":
+  - generic: 현장 · 사건 개요
+  - generic "닫기":
+- generic "용의자 · 윤해린":
+  - generic: 용의자 · 윤해린
+  - generic "닫기":
+- generic "수사팀":
+  - generic: 수사팀
+  - generic "닫기":
+- generic: 수사팀 원본 기록 조회 · 물건 감정 지원
+- generic: 요청을 받으면 바로 답하고, 결과는 조사가 끝나야 들어온다. 동시에 세 건까지 맡길 수 있다.
+- generic: 지원팀
+- generic: 대기 중
+- generic: 요청을 받을 수 있습니다. 한 번에 세 건까지 맡길 수 있습니다.
+- generic: 수사팀
+- generic: 수사팀입니다. 필요한 기록이나 감정이 있으면 말씀해 주세요.
+- generic: 수사관
+- generic: 사무실 출입 기록, 대표와 해린의 통화 내역과 녹음, 문진과 현장 감식을 요청합니다.
+- text: 수사팀이 요청을 확인하는 중…
+- textbox "수사팀이 확인하는 중… (다른 자료를 봐도 된다)"
+- button "요청하기" [disabled]:
+  - text: 요청하기

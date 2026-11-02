@@ -1,0 +1,25 @@
+- button "← 표지"
+- generic: 미해결 사건 파일
+- generic: 튜토리얼 + 사건 1 / 3
+- img "작은 사무실의 사건 현장"
+- generic: 처음이라면 · 예상 플레이타임 약 5분 · 용의자 2명
+- heading "마지막 상담" [level=2]
+- paragraph: 두 사람의 말과 기록을 대조하며 첫 수사를 시작하세요.
+- link "튜토리얼 시작":
+  - /url: /tutorial
+- generic: 사건
+- text: EP.01
+- generic: 수사 기록 · 2026-도심-1012 · 예상 플레이타임 약 40~50분
+- heading "호텔 로베르 집무실 사건" [level=1]
+- paragraph: 아들의 휴대폰에 아버지의 문자 한 통이 도착했다. 분노한 아들은 곧장 호텔 집무실로 올라갔다. 그리고 잠기지 않은 화장실 문 너머에, 회장이 쓰러져 있었다.
+- generic: 해결
+- button "이어서 하기":
+  - text: 이어서 하기
+- button "새로 시작":
+  - text: 새로 시작
+- generic: EP.02
+- generic: 봉인된 파일
+- generic: 준비 중
+- generic: EP.03
+- generic: 봉인된 파일
+- generic: 준비 중

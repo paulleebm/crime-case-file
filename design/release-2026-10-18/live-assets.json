@@ -1,0 +1,12 @@
+{
+  "site": "https://crime-case-file.web.app",
+  "httpStatus": 200,
+  "entry": "/assets/index-BipzxS5l.js",
+  "localSHA256": "A4FD8D0DA0E4A599D2691C73B898544312C6144830DBD15EBCF052802842F7E2",
+  "liveSHA256": "A4FD8D0DA0E4A599D2691C73B898544312C6144830DBD15EBCF052802842F7E2",
+  "matches": true,
+  "aiProviders": [
+    "claude",
+    "openai"
+  ]
+}

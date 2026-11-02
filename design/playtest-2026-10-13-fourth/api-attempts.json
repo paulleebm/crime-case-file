@@ -1,0 +1,664 @@
+[
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 5577,
+    "at": 1791898919442
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": false,
+    "ms": 2210,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791898921654
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": false,
+    "ms": 2330,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791898924237
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": false,
+    "ms": 1977,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791898926724
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2533,
+    "at": 1791898930259
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1874,
+    "at": 1791898932133
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": false,
+    "ms": 2191,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791898966326
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2367,
+    "at": 1791898968955
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": false,
+    "ms": 1858,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791898970814
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2055,
+    "at": 1791898973124
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2197,
+    "at": 1791898993066
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2193,
+    "at": 1791898995259
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2722,
+    "at": 1791899010405
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2309,
+    "at": 1791899012715
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2218,
+    "at": 1791899031223
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2107,
+    "at": 1791899033331
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2468,
+    "at": 1791899045518
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1914,
+    "at": 1791899047433
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2267,
+    "at": 1791899058743
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2111,
+    "at": 1791899060855
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2591,
+    "at": 1791899072383
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2304,
+    "at": 1791899074688
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2533,
+    "at": 1791899089270
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2518,
+    "at": 1791899105449
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": false,
+    "ms": 1642,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791899107092
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2201,
+    "at": 1791899109553
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2863,
+    "at": 1791899149700
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1667,
+    "at": 1791899151367
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2400,
+    "at": 1791899180884
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": false,
+    "ms": 1604,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791899182488
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2179,
+    "at": 1791899184921
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2261,
+    "at": 1791899204622
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1872,
+    "at": 1791899206494
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2188,
+    "at": 1791899221830
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2125,
+    "at": 1791899223956
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1957,
+    "at": 1791899238897
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1696,
+    "at": 1791899240594
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2226,
+    "at": 1791899254099
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1715,
+    "at": 1791899255815
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1995,
+    "at": 1791899266917
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1666,
+    "at": 1791899268584
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2242,
+    "at": 1791899271002
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1869,
+    "at": 1791899272872
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": false,
+    "ms": 1803,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791899293686
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2129,
+    "at": 1791899296067
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1578,
+    "at": 1791899297646
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2990,
+    "at": 1791899341097
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2403,
+    "at": 1791899351561
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1773,
+    "at": 1791899353336
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": false,
+    "ms": 1913,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791899362765
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2508,
+    "at": 1791899365529
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": false,
+    "ms": 1547,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791899367077
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2003,
+    "at": 1791899369337
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2342,
+    "at": 1791899392406
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2073,
+    "at": 1791899394481
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2053,
+    "at": 1791899406961
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2363,
+    "at": 1791899409324
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2357,
+    "at": 1791899431238
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2050,
+    "at": 1791899433289
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2391,
+    "at": 1791899445274
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1839,
+    "at": 1791899447113
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": false,
+    "ms": 2035,
+    "error": "AI: Error fetching from https://firebasevertexai.googleapis.com/v1beta/projects/crime-case-file/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent: [429 ] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details. (AI/fetch-error)",
+    "at": 1791899474117
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2089,
+    "at": 1791899476460
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1760,
+    "at": 1791899478221
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2346,
+    "at": 1791899488783
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2427,
+    "at": 1791899491211
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2129,
+    "at": 1791899504658
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2040,
+    "at": 1791899506698
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 3104,
+    "at": 1791899517517
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1944,
+    "at": 1791899519462
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2881,
+    "at": 1791899536375
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1998,
+    "at": 1791899538375
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2469,
+    "at": 1791899549638
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2239,
+    "at": 1791899559268
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1807,
+    "at": 1791899561076
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2593,
+    "at": 1791899591456
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2457,
+    "at": 1791899593914
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2101,
+    "at": 1791899606398
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1878,
+    "at": 1791899608276
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 3412,
+    "at": 1791899656108
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1674,
+    "at": 1791899657783
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2506,
+    "at": 1791899676191
+  },
+  {
+    "task": "voice",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1692,
+    "at": 1791899677885
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2089,
+    "at": 1791899693499
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1720,
+    "at": 1791899695220
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2554,
+    "at": 1791899729384
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2052,
+    "at": 1791899731437
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2327,
+    "at": 1791899760886
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2028,
+    "at": 1791899762915
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2271,
+    "at": 1791899789181
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2110,
+    "at": 1791899791292
+  },
+  {
+    "task": "interpret",
+    "route": "firebase",
+    "ok": true,
+    "ms": 2317,
+    "at": 1791899863913
+  },
+  {
+    "task": "write",
+    "route": "firebase",
+    "ok": true,
+    "ms": 1749,
+    "at": 1791899865663
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "hangyeol-case-functions",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "engines": { "node": "22" },
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node22 --format=esm --outfile=lib/index.js --external:firebase-functions --external:firebase-admin --external:@anthropic-ai/sdk"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "firebase-admin": "^13.0.0",
+    "firebase-functions": "^7.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

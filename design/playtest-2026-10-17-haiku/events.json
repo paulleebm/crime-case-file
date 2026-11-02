@@ -1,0 +1,2965 @@
+[
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "start",
+    "at": 1792177227864,
+    "idle": 0,
+    "screen": "hub",
+    "owned": 2,
+    "done": 0,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177234956,
+    "idle": 7,
+    "tab": "team"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177240506,
+    "idle": 13,
+    "person": "team",
+    "id": "tmvbc21160",
+    "role": "me",
+    "text": "처음 맡는 사건이라 막막해요. 지금 확실한 사실과 아직 모르는 것만 나눠서 정리해 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177248293,
+    "idle": 20,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 7770,
+    "usage": {
+      "input": 1703,
+      "output": 1503,
+      "cacheRead": 4920,
+      "cacheWrite": 6774
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177248294,
+    "idle": 20,
+    "person": "team",
+    "id": "tmvbc271i1",
+    "role": "them",
+    "text": "확실한 사실부터 정리하겠습니다. 10월 12일 21시 26분 류준서 씨가 아버지 류정환 회장이 쓰러져 있다고 신고했고, 연락이 닿지 않아 집무실을 찾았다고 설명했습니다(발견 개요)."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177249467,
+    "idle": 22,
+    "person": "team",
+    "id": "tmvbc27y32",
+    "role": "them",
+    "text": "사건은 타살로 보고 수사 중이며, 현장에서 흉기는 발견되지 않았습니다(발견 개요). 피해자는 호텔 로베르 운영 회사의 회장이고, 서민아 씨는 행사 지원팀 계약직으로 10월 7일 11월 30일자 계약 종료 통보를 받았으며 이는 회장 결재였습니다(인물 소개)."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177250611,
+    "idle": 23,
+    "person": "team",
+    "id": "tmvbc28tu3",
+    "role": "them",
+    "text": "아직 모르는 것은 사인과 사망 시각, 흉기의 행방, 회장에게 온 마지막 문자의 내용과 발송 방식, 집무실을 드나든 사람들과 그 시간 각자의 행적입니다. 필요한 조사를 하나씩 맡으며 채워 가겠습니다.",
+    "outcome": "talk"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177257985,
+    "idle": 30,
+    "person": "team",
+    "id": "tmvbc2eip4",
+    "role": "me",
+    "text": "회장에게 온 마지막 문자라고요? 저는 아들의 휴대폰에 아버지 문자가 왔다고 읽었는데, 누가 누구에게 보낸 건지 다시 확인해 주세요. 그리고 아직 문자 원본을 안 봤는데 발송 방식부터 의심할 이유가 있나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177265666,
+    "idle": 38,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 7665,
+    "usage": {
+      "input": 2208,
+      "output": 1440,
+      "cacheRead": 11694,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177265666,
+    "idle": 38,
+    "person": "team",
+    "id": "tmvbc2kg25",
+    "role": "them",
+    "text": "앞서 제가 '회장에게 온 마지막 문자'라고 정리한 것은 잘못된 표현이었습니다. 확보한 자료 기준으로 확인되는 것은 류준서 씨가 21시 10분에 받은 마지막 문자이며, 누가 보낸 문자인지는 아직 확인되지 않았습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177266735,
+    "idle": 39,
+    "person": "team",
+    "id": "tmvbc2l9r6",
+    "role": "them",
+    "text": "문자 원문은 아직 확보하지 않았고, 준서 씨 휴대폰에 있어 본인 동의가 필요하니 준서 씨에게 직접 보여 달라고 요청해 주세요. 발송 방식은 아직 확인된 사실이 없어 말씀드릴 수 없습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177267626,
+    "idle": 40,
+    "person": "team",
+    "id": "tmvbc2lyi7",
+    "role": "them",
+    "text": "예약 발송인지 직접 보낸 것인지는 마지막 문자 발송 기록을 조회하면 확인할 수 있습니다. 맡길까요?",
+    "outcome": "talk"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177277300,
+    "idle": 49,
+    "person": "team",
+    "id": "tmvbc2tf78",
+    "role": "me",
+    "text": "추측은 나중에 할게요. 우선 부검과 집무실 출입 기록, 현장 감식 세 가지를 부탁합니다.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177279078,
+    "idle": 51,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 1761,
+    "usage": {
+      "input": 2573,
+      "output": 106,
+      "cacheRead": 11694,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_start",
+    "at": 1792177279079,
+    "idle": 51,
+    "jobs": [
+      "GT-R01",
+      "GT-R04",
+      "GT-R16"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177279079,
+    "idle": 51,
+    "person": "team",
+    "id": "tmvbc2usn9",
+    "role": "them",
+    "text": "알겠습니다. 부검의에게 사인 감정을 요청하겠습니다. 집무실 카드 인증 원본을 받아 오겠습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177280266,
+    "idle": 52,
+    "person": "team",
+    "id": "tmvbc2vpla",
+    "role": "them",
+    "text": "감식반을 집무실에 다시 보내 혈흔 반응과 흔적을 정밀 감식하겠습니다. 결과가 나오는 대로 알려 드리겠습니다.",
+    "outcome": "ack"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177284426,
+    "idle": 57,
+    "tab": "person",
+    "ref": "A"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177292214,
+    "idle": 64,
+    "person": "A",
+    "id": "mmvbc34xhb",
+    "role": "me",
+    "text": "아버지를 발견하기 전까지 그날 저녁에 뭘 했는지, 기억나는 순서대로 말해 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177294446,
+    "idle": 67,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2197,
+    "usage": {
+      "input": 1522,
+      "output": 202,
+      "cacheRead": 15478,
+      "cacheWrite": 4583
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177294449,
+    "idle": 67,
+    "person": "A",
+    "id": "mmvbc36nlc",
+    "role": "them",
+    "text": "7시에 로비 카페에서 샌드위치를 먹었어요. 7시 50분부터 8시까지 아버지께 전화해서 보증금 천오백만 원을 부탁드렸고요.",
+    "outcome": "fact",
+    "facts": [
+      "A-Q26"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177295564,
+    "idle": 68,
+    "person": "A",
+    "id": "mmvbc37ikd",
+    "role": "them",
+    "text": "8시 15분에 로비에서 민아 씨에게 제 카드를 빌려줬어요. 8시 20분부터 9시 15분까지는 1층 매입점에 있었고, 9시 23분에 집무실에 올라가서 아버지를 발견했습니다.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177295564,
+    "idle": 68,
+    "ids": [
+      "A-Q26",
+      "A-01"
+    ],
+    "owned": 4
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177297827,
+    "idle": 2,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2262,
+    "usage": {
+      "input": 1576,
+      "output": 411,
+      "cacheRead": 2388,
+      "cacheWrite": 598
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177299195,
+    "idle": 4,
+    "person": "A",
+    "id": "mmvbc3abee",
+    "role": "me",
+    "text": "그다음에는요? 전화 끝난 뒤부터 신고할 때까지 이어서 듣고 싶어요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177301500,
+    "idle": 6,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2286,
+    "usage": {
+      "input": 1746,
+      "output": 283,
+      "cacheRead": 20061,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177301501,
+    "idle": 6,
+    "person": "A",
+    "id": "mmvbc3c3hf",
+    "role": "them",
+    "text": "전화 끝나고 나서요… 9시 12분이랑 14분에 아버지께 다시 걸었는데 두 번 다 안 받으셨어요.",
+    "outcome": "fact",
+    "facts": [
+      "A-Q01",
+      "A-Q13",
+      "A-Q14",
+      "A-Q15"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177302390,
+    "idle": 7,
+    "person": "A",
+    "id": "mmvbc3cs6g",
+    "role": "them",
+    "text": "그래서 9시 15분에 매입점에서 나와 로비를 거쳐 엘리베이터를 탔어요. 9시 23분에 집무실 카드로 들어가서 책상 쪽에 안 계셔서 불렀는데 대답이 없었어요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177303579,
+    "idle": 8,
+    "person": "A",
+    "id": "mmvbc3dp7h",
+    "role": "them",
+    "text": "화장실 문을 열어 보니까 아버지가 바닥에 옆으로 쓰러져 계셨어요. 몸을 흔들어 보고 반응을 확인한 다음 9시 26분에 신고했어요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177303580,
+    "idle": 8,
+    "ids": [
+      "A-Q01",
+      "A-Q13",
+      "A-Q14",
+      "A-Q15"
+    ],
+    "owned": 8
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177306759,
+    "idle": 3,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3179,
+    "usage": {
+      "input": 2462,
+      "output": 806,
+      "cacheRead": 2551,
+      "cacheWrite": 820
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177308759,
+    "idle": 5,
+    "person": "A",
+    "id": "mmvbc3hp3i",
+    "role": "me",
+    "text": "아버지와 많이 다퉜나요? 돈을 안 주셔서 화가 났던 건지, 상속 문제도 있었는지 궁금해요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_result",
+    "at": 1792177309126,
+    "idle": 6,
+    "job": "jobmvbc2usm1",
+    "docs": [
+      "GT-E07"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177311180,
+    "idle": 8,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2364,
+    "usage": {
+      "input": 2074,
+      "output": 231,
+      "cacheRead": 20061,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177311183,
+    "idle": 8,
+    "person": "A",
+    "id": "mmvbc3jkfj",
+    "role": "them",
+    "text": "아버지랑 다퉜던 건 맞아요. 보증금 때문에 전화로 부탁드렸는데 현금은 안 된다고 하셨어요.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177312349,
+    "idle": 9,
+    "person": "A",
+    "id": "mmvbc3kgtk",
+    "role": "them",
+    "text": "상속 얘기는… 그날 아버지가 변호사 만나서 뒷일을 다 정리해 뒀다고 하셨는데, 무슨 뜻이냐고 여쭤도 알 것 없다고만 하셨어요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177313519,
+    "idle": 10,
+    "person": "A",
+    "id": "mmvbc3ldbl",
+    "role": "them",
+    "text": "솔직히 저를 빼시려는 건가 싶어서 겁이 났어요. 그래도 그걸로 아버지를 해칠 리는 없잖아요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177317319,
+    "idle": 14,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3799,
+    "usage": {
+      "input": 3113,
+      "output": 1074,
+      "cacheRead": 3371,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177328647,
+    "idle": 25,
+    "person": "A",
+    "id": "mmvbc3x1jm",
+    "role": "me",
+    "text": "아버지가 보냈다는 문자들을 원문 그대로 보여 줄 수 있어요? 마지막 문자뿐 아니라 그 전에 온 것도요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177330479,
+    "idle": 27,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 1764,
+    "usage": {
+      "input": 2356,
+      "output": 127,
+      "cacheRead": 19500,
+      "cacheWrite": 1110
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177330480,
+    "idle": 27,
+    "person": "A",
+    "id": "mmvbc3yggn",
+    "role": "them",
+    "text": "문자요? 네, 보여 드릴게요. 8시 2분에 온 허락 문자가 있고, 9시 10분에 온 마지막 문자도 있어요. 그 전에 온 것도 같이 있으니 그대로 보시면 됩니다.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177330481,
+    "idle": 27,
+    "ids": [
+      "GT-E05"
+    ],
+    "toast": "새 자료: 준서 휴대폰의 아버지 문자",
+    "owned": 11
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177330481,
+    "idle": 0,
+    "person": "A",
+    "id": "mmvbc3ygho",
+    "role": "note",
+    "text": "새 자료 · 준서 휴대폰의 아버지 문자",
+    "sub": "류준서가 자기 휴대폰의 아버지와 주고받은 문자 화면을 직접 보여 주었다"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177335401,
+    "idle": 5,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 4919,
+    "usage": {
+      "input": 3590,
+      "output": 1239,
+      "cacheRead": 3371,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177337368,
+    "idle": 7,
+    "tab": "doc",
+    "ref": "GT-E05"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177343183,
+    "idle": 13,
+    "tab": "person",
+    "ref": "B"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177343480,
+    "idle": 13,
+    "person": "B",
+    "id": "mmvbc48hkp",
+    "role": "me",
+    "text": "그날 집무실에는 왜 올라갔고, 안에서 누굴 봤어요? 물건을 가져온 일이 있으면 그것도 말해 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177346914,
+    "idle": 16,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3394,
+    "usage": {
+      "input": 1528,
+      "output": 296,
+      "cacheRead": 17010,
+      "cacheWrite": 5130
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177346916,
+    "idle": 16,
+    "person": "B",
+    "id": "mmvbc4b50q",
+    "role": "them",
+    "text": "형사님, 그날 집무실에는 준서 씨 부탁으로 올라갔어요. 회장님이 금 트로피를 주기로 하셨는데 대신 가져다 달라고 하셨고, 제 카드로는 문이 안 열려서 준서 씨 카드를 빌렸어요.",
+    "outcome": "fact",
+    "facts": [
+      "B-Q02",
+      "B-Q03",
+      "B-Q05",
+      "B-Q06",
+      "B-Q07",
+      "B-Q11"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177347844,
+    "idle": 17,
+    "person": "B",
+    "id": "mmvbc4busr",
+    "role": "them",
+    "text": "안에는 아무도 없었어요. 회장님도, 총지배인님도 보지 못했고, 방 안에 대고 준서 씨 부탁이라고 알린 뒤 트로피를 두 손으로 들고 나왔어요. 1분 남짓 있었고, 그걸 매입점에 가져가 드렸습니다.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177347844,
+    "idle": 17,
+    "ids": [
+      "B-Q02",
+      "B-Q03",
+      "B-Q05",
+      "B-Q06",
+      "B-Q07",
+      "B-Q11",
+      "B-01"
+    ],
+    "owned": 18
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177351131,
+    "idle": 3,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3287,
+    "usage": {
+      "input": 1645,
+      "output": 865,
+      "cacheRead": 2388,
+      "cacheWrite": 1159
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177352143,
+    "idle": 4,
+    "person": "B",
+    "id": "mmvbc4f67s",
+    "role": "me",
+    "text": "누굴 봤는지 부분이 중요해요. 회장이나 문태준 씨가 정말 안 보였나요? 화장실까지 확인한 건가요, 아니면 그냥 방이 비었다고 생각한 건가요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177354080,
+    "idle": 6,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 1862,
+    "usage": {
+      "input": 1880,
+      "output": 195,
+      "cacheRead": 22140,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177354086,
+    "idle": 6,
+    "person": "B",
+    "id": "mmvbc4go5t",
+    "role": "them",
+    "text": "화장실까지는 확인하지 않았어요. 방에 들어갔을 때 아무도 없었고, 화장실 문이 닫혀 있는 것만 봤어요.",
+    "outcome": "fact",
+    "facts": [
+      "B-Q05",
+      "B-Q08"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_result",
+    "at": 1792177354157,
+    "idle": 6,
+    "job": "jobmvbc2usm0",
+    "docs": [
+      "GT-E04"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177354990,
+    "idle": 7,
+    "person": "B",
+    "id": "mmvbc4hdau",
+    "role": "them",
+    "text": "회장님이 안에 계시거나 잠깐 자리를 비우신 줄 알았어요. 총지배인님도 보지 못했어요. 빈 방이라고 생각했고, 남의 화장실 문을 열어 볼 이유는 없었어요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177354990,
+    "idle": 7,
+    "ids": [
+      "B-Q08"
+    ],
+    "owned": 21
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177357490,
+    "idle": 3,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2499,
+    "usage": {
+      "input": 2919,
+      "output": 552,
+      "cacheRead": 2533,
+      "cacheWrite": 1101
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177360062,
+    "idle": 5,
+    "person": "B",
+    "id": "mmvbc4la6v",
+    "role": "me",
+    "text": "계약 종료 통보를 받았다던데 억울하지 않았어요? 회장에게 따지거나 다시 생각해 달라고 한 적은요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177362087,
+    "idle": 7,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 1982,
+    "usage": {
+      "input": 2108,
+      "output": 167,
+      "cacheRead": 20787,
+      "cacheWrite": 1727
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177362088,
+    "idle": 7,
+    "person": "B",
+    "id": "mmvbc4mugw",
+    "role": "them",
+    "text": "네, 말씀드릴게요. 계약 종료 통보는 10월 7일에 받았어요. 솔직히 많이 속상했고 억울하기도 했어요.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177363053,
+    "idle": 8,
+    "person": "B",
+    "id": "mmvbc4nl9x",
+    "role": "them",
+    "text": "그래도 회장님께 따지거나 다시 생각해 달라고 말씀드린 적은 한 번도 없어요. 계약직이 회장님께 말씀드릴 자리가 따로 없기도 했고요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177366347,
+    "idle": 11,
+    "person": "B",
+    "id": "mmvbc4q4ry",
+    "role": "me",
+    "text": "회장님을 직접 만난 건 아니라는 거죠? 그럼 트로피를 가져가도 된다는 허락은 누구 말만 믿은 거예요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177366586,
+    "idle": 12,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3531,
+    "usage": {
+      "input": 3242,
+      "output": 241,
+      "cacheRead": 3634,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177368192,
+    "idle": 13,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 1800,
+    "usage": {
+      "input": 2319,
+      "output": 138,
+      "cacheRead": 22514,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177368193,
+    "idle": 13,
+    "person": "B",
+    "id": "mmvbc4rk1z",
+    "role": "them",
+    "text": "네, 회장님은 직접 뵙지 못했어요. 허락은 준서 씨가 말씀하신 것만 듣고 믿었어요. 메시지에 회장님 허락을 받았다고 적혀 있었고, 준서 씨가 그렇게 말씀하셨어요.",
+    "outcome": "fact",
+    "facts": [
+      "B-Q02"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177372552,
+    "idle": 18,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 4359,
+    "usage": {
+      "input": 3523,
+      "output": 1302,
+      "cacheRead": 3634,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177373867,
+    "idle": 19,
+    "tab": "person",
+    "ref": "C"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177374139,
+    "idle": 19,
+    "person": "C",
+    "id": "mmvbc4w5710",
+    "role": "me",
+    "text": "그날 회장과 무슨 이야기를 하셨고, 집무실에는 언제 들어갔다 언제 나왔나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177379043,
+    "idle": 24,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 4868,
+    "usage": {
+      "input": 1514,
+      "output": 822,
+      "cacheRead": 15345,
+      "cacheWrite": 11107
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177379045,
+    "idle": 24,
+    "person": "C",
+    "id": "mmvbc4zxh11",
+    "role": "them",
+    "text": "정기 운영 보고였습니다. 운영 현황과 다음 달 행사 준비를 말씀드렸어요. 8시 30분에 들어가서 8시 45분에 나왔습니다. 나올 때 회장님은 책상에 계셨고 멀쩡하셨습니다.",
+    "outcome": "fact",
+    "facts": [
+      "C-Q03",
+      "C-Q04"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177379045,
+    "idle": 24,
+    "ids": [
+      "C-Q03",
+      "C-Q04",
+      "C-01"
+    ],
+    "owned": 24
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177381615,
+    "idle": 3,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2570,
+    "usage": {
+      "input": 1505,
+      "output": 505,
+      "cacheRead": 2388,
+      "cacheWrite": 631
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177383790,
+    "idle": 5,
+    "person": "C",
+    "id": "mmvbc53la12",
+    "role": "me",
+    "text": "민아 씨는 안에서 아무도 못 봤다는데요. 당신이 나오기 전에 들어온 건가요, 나온 뒤인가요? 직접 본 것만 말씀해 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177388450,
+    "idle": 9,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 4608,
+    "usage": {
+      "input": 1706,
+      "output": 631,
+      "cacheRead": 26452,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177388451,
+    "idle": 9,
+    "person": "C",
+    "id": "mmvbc576r13",
+    "role": "them",
+    "text": "직접 본 건 없습니다. 저는 8시 45분에 나왔고, 그 안에서 민아 씨를 보지 못했습니다. 제가 나간 뒤에 들어간 것이겠지요.",
+    "outcome": "fact",
+    "facts": [
+      "C-Q06"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177388451,
+    "idle": 9,
+    "ids": [
+      "C-Q06"
+    ],
+    "owned": 25
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177390789,
+    "idle": 2,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2337,
+    "usage": {
+      "input": 2282,
+      "output": 529,
+      "cacheRead": 2555,
+      "cacheWrite": 566
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177394712,
+    "idle": 6,
+    "person": "C",
+    "id": "mmvbc5c0o14",
+    "role": "me",
+    "text": "그 시간에 아들한테 문자가 갔다면 회장님이 살아 계셨다는 뜻인가요? 퇴실 때 직접 대화한 것과 문자로 짐작한 것을 나눠 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177404138,
+    "idle": 16,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 9383,
+    "usage": {
+      "input": 1876,
+      "output": 1634,
+      "cacheRead": 26452,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177404143,
+    "idle": 16,
+    "person": "C",
+    "id": "mmvbc5jan15",
+    "role": "them",
+    "text": "퇴실 때 직접 대화한 건 8시 30분에 집무실에서 보고를 드릴 때입니다. 전화는 8시 25분부터 26분까지였고, 8시 45분에 나올 때도 회장님은 책상에 계셨고 멀쩡하셨습니다.",
+    "outcome": "fact",
+    "facts": [
+      "C-Q10",
+      "C-Q17"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177405048,
+    "idle": 17,
+    "person": "C",
+    "id": "mmvbc5jzs16",
+    "role": "them",
+    "text": "9시 10분 문자는 회장님이 직접 보내신 것이라 그때까지 살아 계셨다고 봅니다. 그 문자를 제가 직접 본 건 아니라서 그 부분은 그렇게 알고 있다는 말씀입니다.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177405049,
+    "idle": 17,
+    "ids": [
+      "C-Q10",
+      "C-Q17"
+    ],
+    "owned": 27
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177408079,
+    "idle": 3,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3030,
+    "usage": {
+      "input": 2749,
+      "output": 803,
+      "cacheRead": 2555,
+      "cacheWrite": 779
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177409330,
+    "idle": 4,
+    "tab": "doc",
+    "ref": "GT-E07"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177415448,
+    "idle": 10,
+    "tab": "team"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177415792,
+    "idle": 11,
+    "person": "team",
+    "id": "tmvbc5sa817",
+    "role": "me",
+    "text": "문 열림 기록에 20시 45분, 46분, 50분이 있는데요. 이름이 없으니 어느 게 누구인지 아직 단정할 수 없는 거죠? 각 시각에 이름을 붙이지 말고 확인된 범위만 말해 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177421554,
+    "idle": 17,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5713,
+    "usage": {
+      "input": 2889,
+      "output": 883,
+      "cacheRead": 11414,
+      "cacheWrite": 962
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177421555,
+    "idle": 17,
+    "person": "team",
+    "id": "tmvbc5wqb18",
+    "role": "them",
+    "text": "말씀하신 대로입니다. 집무실 문 열림 기록에는 20:45, 20:46, 20:50에 문이 열렸다는 시각만 있고, 카드 번호나 이름, 들어갔는지 나갔는지는 남아 있지 않습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177422610,
+    "idle": 18,
+    "person": "team",
+    "id": "tmvbc5xjm19",
+    "role": "them",
+    "text": "따라서 이 세 시각을 누구와 연결할 수는 없고, 확인된 범위는 '그 시각에 문이 열렸다'까지입니다. 엘리베이터 운행 기록도 탑승자 이름은 기록되지 않아 같은 방식으로 보셔야 합니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177423483,
+    "idle": 18,
+    "person": "team",
+    "id": "tmvbc5y7v1a",
+    "role": "them",
+    "text": "누가 드나들었는지를 가려내려면 카드 대여나 출입 진술을 정리한 자료가 도움이 될 수 있습니다.",
+    "outcome": "talk"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177426312,
+    "idle": 21,
+    "person": "team",
+    "id": "tmvbc60eg1b",
+    "role": "me",
+    "text": "두 가지 더 부탁해요. 1층 매입점에서 준서와 민아가 언제 있었는지 확인하고, 아버지 문자의 발송 기록도 조회해 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_result",
+    "at": 1792177429126,
+    "idle": 24,
+    "job": "jobmvbc2usm2",
+    "docs": [
+      "GT-E19"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177433974,
+    "idle": 29,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 7611,
+    "usage": {
+      "input": 2878,
+      "output": 1277,
+      "cacheRead": 12376,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_start",
+    "at": 1792177433974,
+    "idle": 29,
+    "jobs": [
+      "GT-R25",
+      "GT-R10"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177433974,
+    "idle": 29,
+    "person": "team",
+    "id": "tmvbc66ba1c",
+    "role": "them",
+    "text": "알겠습니다.\n온정귀금속에 매장 방문 대장 사본을 요청하겠습니다.\n마지막 문자의 발송 기록을 통신사에 조회하겠습니다.\n결과가 나오는 대로 알려 드리겠습니다.",
+    "outcome": "ack"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177441082,
+    "idle": 36,
+    "person": "team",
+    "id": "tmvbc6bsq1d",
+    "role": "me",
+    "text": "누가 범인인지 바로 말해 달라는 건 아니고요. 현재 민아가 회장을 봤다는 증거가 있나요? 빈 방이었다는 말만으로 무죄라고 해도 되나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177447843,
+    "idle": 43,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 6714,
+    "usage": {
+      "input": 2754,
+      "output": 1002,
+      "cacheRead": 11414,
+      "cacheWrite": 1409
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177447843,
+    "idle": 43,
+    "person": "team",
+    "id": "tmvbc6h0j1e",
+    "role": "them",
+    "text": "말씀하신 대로 지금 자료에는 민아 씨가 회장님을 봤다는 것을 직접 보여 주는 내용이 없습니다. 확보한 자료 어디에도 민아 씨 이름이 회장님과 연결되어 적혀 있지 않습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177448773,
+    "idle": 44,
+    "person": "team",
+    "id": "tmvbc6hqd1f",
+    "role": "them",
+    "text": "문 열림 기록과 엘리베이터 기록은 시각과 층 이동만 남기고 누가 탔는지, 누가 들어갔는지는 남기지 않았습니다. 집무실이 비어 있었다는 사실만으로 무죄라고 정할 수는 없습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177449667,
+    "idle": 45,
+    "person": "team",
+    "id": "tmvbc6if71g",
+    "role": "them",
+    "text": "그 판단은 수사관님의 몫이고, 자료가 더 필요하다면 카드 대여나 출입 진술을 정리한 자료를 말씀해 주세요.",
+    "outcome": "talk"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177453425,
+    "idle": 48,
+    "tab": "doc",
+    "ref": "GT-E04"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177458981,
+    "idle": 54,
+    "tab": "team"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177459328,
+    "idle": 54,
+    "person": "team",
+    "id": "tmvbc6pvk1h",
+    "role": "me",
+    "text": "부검에는 사망한 지 1시간 이내라고만 나오네요. 그러면 20시 31분에 죽었다고 확정해도 되나요? 정확한 분은 아직 모르는 건가요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177461596,
+    "idle": 57,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2216,
+    "usage": {
+      "input": 2816,
+      "output": 220,
+      "cacheRead": 12823,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177461597,
+    "idle": 57,
+    "person": "team",
+    "id": "tmvbc6rml1i",
+    "role": "them",
+    "text": "어떤 기록을 찾으시는지 조금만 더 짚어 주시겠어요? 사람이나 물건, 기록의 이름을 말씀해 주시면 바로 찾겠습니다.",
+    "outcome": "talk"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_result",
+    "at": 1792177464125,
+    "idle": 59,
+    "job": "jobmvbc66ba0",
+    "docs": [
+      "GT-E28"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177466387,
+    "idle": 61,
+    "person": "team",
+    "id": "tmvbc6vbn1j",
+    "role": "me",
+    "text": "새 조사를 의뢰하는 게 아니라, 방금 받은 사인 감정의 해석을 묻는 겁니다. 이 보고서가 특정 사망 시각까지 증명하나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177468913,
+    "idle": 64,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2501,
+    "usage": {
+      "input": 2774,
+      "output": 253,
+      "cacheRead": 11414,
+      "cacheWrite": 1579
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177468913,
+    "idle": 64,
+    "person": "team",
+    "id": "tmvbc6x9t1k",
+    "role": "them",
+    "text": "어떤 기록을 찾으시는지 조금만 더 짚어 주시겠어요? 사람이나 물건, 기록의 이름을 말씀해 주시면 바로 찾겠습니다.",
+    "outcome": "talk"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177475339,
+    "idle": 70,
+    "tab": "doc",
+    "ref": "GT-E28"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_result",
+    "at": 1792177479125,
+    "idle": 74,
+    "job": "jobmvbc66ba1",
+    "docs": [
+      "GT-E14"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177484861,
+    "idle": 80,
+    "tab": "person",
+    "ref": "C"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177484927,
+    "idle": 80,
+    "person": "C",
+    "id": "mmvbc79mn1l",
+    "role": "me",
+    "text": "문은 20시 45분, 46분, 50분에 열렸고 민아는 47분부터 매입점에 있었어요. 45분과 46분은 민아가 들어가고 나온 시각, 50분이 당신 퇴실 아닌가요? 당신이 45분에 나왔다는 말은 안 맞습니다.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177491120,
+    "idle": 86,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 6172,
+    "usage": {
+      "input": 2210,
+      "output": 995,
+      "cacheRead": 24577,
+      "cacheWrite": 2883
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177491123,
+    "idle": 86,
+    "person": "C",
+    "id": "mmvbc7eer1m",
+    "role": "them",
+    "text": "…거기까지는 인정하겠습니다. 8시 45분이라고 한 건 사실이 아니었습니다. 나온 건 8시 50분입니다.",
+    "outcome": "success",
+    "record": "C-R02"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177492190,
+    "idle": 87,
+    "person": "C",
+    "id": "mmvbc7f8e1n",
+    "role": "them",
+    "text": "민아 씨가 들어왔을 때 저는 집무실 안, 화장실에 있었습니다. 그 안에서 무슨 일이 있었는지는 지금 말씀드리기 어렵습니다.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "solve",
+    "at": 1792177492190,
+    "idle": 87,
+    "id": "X-L02",
+    "done": 1
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177492190,
+    "idle": 0,
+    "ids": [
+      "C-R02"
+    ],
+    "toast": "문태준의 진술서가 정정되었다",
+    "owned": 32
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177492190,
+    "idle": 0,
+    "person": "C",
+    "id": "mmvbc7f8e1o",
+    "role": "note",
+    "text": "진술서 정정",
+    "sub": "앞서 한 말이 진술서에서 지금의 진술로 바뀌었다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177495529,
+    "idle": 3,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3338,
+    "usage": {
+      "input": 2971,
+      "output": 890,
+      "cacheRead": 2555,
+      "cacheWrite": 964
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177496089,
+    "idle": 4,
+    "person": "C",
+    "id": "mmvbc7i8p1p",
+    "role": "me",
+    "text": "그럼 50분까지 방에 있으면서 민아를 못 봤다는 건 왜죠? 같은 방에 있었는데 서로 못 본 이유를 설명해 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177499715,
+    "idle": 8,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3573,
+    "usage": {
+      "input": 2455,
+      "output": 590,
+      "cacheRead": 15345,
+      "cacheWrite": 11161
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177499715,
+    "idle": 8,
+    "person": "C",
+    "id": "mmvbc7l1f1q",
+    "role": "them",
+    "text": "화장실 안에 있었습니다. 문이 열리고 민아 씨가 들어오는 소리만 들었고, 나가서 확인하지는 않았습니다. 같은 방이어도 저는 안쪽에 있었으니 못 본 겁니다.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177502246,
+    "idle": 10,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2528,
+    "usage": {
+      "input": 3443,
+      "output": 386,
+      "cacheRead": 3519,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177505217,
+    "idle": 13,
+    "person": "C",
+    "id": "mmvbc7pa91r",
+    "role": "me",
+    "text": "아까는 회장님이 책상에 멀쩡히 계셨다면서요. 화장실 안에 있던 사람이 나올 때 회장 상태를 직접 봤다는 말은 여전히 맞나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177512812,
+    "idle": 21,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 7541,
+    "usage": {
+      "input": 2631,
+      "output": 1261,
+      "cacheRead": 26506,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177512812,
+    "idle": 21,
+    "person": "C",
+    "id": "mmvbc7v581s",
+    "role": "them",
+    "text": "아니요, 그 말은 제가 잘못 말씀드린 겁니다. 8시 50분에 나올 때 저는 화장실 안에 있었으니 책상에 계신 회장님을 직접 보고 나온 게 아닙니다.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177513954,
+    "idle": 22,
+    "person": "C",
+    "id": "mmvbc7w0y1t",
+    "role": "them",
+    "text": "회장님이 그때 어떤 상태셨는지는… 지금은 말씀드리기 어렵습니다.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177517700,
+    "idle": 26,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3745,
+    "usage": {
+      "input": 3538,
+      "output": 980,
+      "cacheRead": 3519,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177518850,
+    "idle": 27,
+    "tab": "doc",
+    "ref": "GT-E14"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177524983,
+    "idle": 33,
+    "tab": "person",
+    "ref": "C"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177525332,
+    "idle": 33,
+    "person": "C",
+    "id": "mmvbc84t01u",
+    "role": "me",
+    "text": "통신사 보고서는 그 문자가 예약 발송이라고 합니다. 그러면 9시 10분까지 살아 계셨다는 당신 설명도 근거가 없어지는 거죠?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177532206,
+    "idle": 40,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 6794,
+    "usage": {
+      "input": 2842,
+      "output": 970,
+      "cacheRead": 26506,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177532208,
+    "idle": 40,
+    "person": "C",
+    "id": "mmvbc8a401v",
+    "role": "them",
+    "text": "예약 발송이라고요? 통신사 보고서를 말씀하시는 거라면, 그 보고서를 직접 보여 주십시오. 보기 전에는 그 말씀에 뭐라고 드릴 수가 없습니다.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177535850,
+    "idle": 44,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3641,
+    "usage": {
+      "input": 3911,
+      "output": 986,
+      "cacheRead": 3519,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177546498,
+    "idle": 54,
+    "tab": "doc",
+    "ref": "GT-E14"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177547079,
+    "idle": 55,
+    "tab": "person",
+    "ref": "C"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177556481,
+    "idle": 64,
+    "person": "C",
+    "id": "mmvbc8su91w",
+    "role": "me",
+    "text": "이게 그 통신사 보고서입니다. 21시 10분에 직접 보냈다는 말과 생존 근거를 정정하시겠습니까?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177561977,
+    "idle": 70,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5465,
+    "usage": {
+      "input": 3048,
+      "output": 768,
+      "cacheRead": 26506,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177561977,
+    "idle": 70,
+    "person": "C",
+    "id": "mmvbc8x2x1x",
+    "role": "them",
+    "text": "…예약 발송이라면 9시 10분에 회장님이 직접 보내신 문자가 아니었다는 뜻이군요. 그러니 그 문자로 그때까지 살아 계셨다고 드린 말씀은 거두겠습니다.",
+    "outcome": "success",
+    "record": "C-R03"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "solve",
+    "at": 1792177561977,
+    "idle": 70,
+    "id": "X-L03",
+    "done": 2
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177561977,
+    "idle": 0,
+    "ids": [
+      "C-R03"
+    ],
+    "toast": "문태준의 진술서가 정정되었다",
+    "owned": 33
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177561977,
+    "idle": 0,
+    "person": "C",
+    "id": "mmvbc8x2x1y",
+    "role": "note",
+    "text": "진술서 정정",
+    "sub": "앞서 한 말이 진술서에서 지금의 진술로 바뀌었다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177566318,
+    "idle": 4,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 4340,
+    "usage": {
+      "input": 3926,
+      "output": 1066,
+      "cacheRead": 2555,
+      "cacheWrite": 1107
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177566504,
+    "idle": 5,
+    "person": "C",
+    "id": "mmvbc90ko1z",
+    "role": "me",
+    "text": "예약이었다는 것까지는 알겠어요. 누가 언제 예약했는지는 이 보고서에 없는데, 당신이 예약한 건가요? 모르는 사실은 만들어 말하지 말아 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177570970,
+    "idle": 9,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 4441,
+    "usage": {
+      "input": 3225,
+      "output": 670,
+      "cacheRead": 15345,
+      "cacheWrite": 10699
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177570970,
+    "idle": 9,
+    "person": "C",
+    "id": "mmvbc940q20",
+    "role": "them",
+    "text": "제가 예약했다는 말씀이십니까. 아닙니다. 회장님 휴대폰에 그런 문자를 등록한 적이 없습니다. 누가 했는지는 제가 알 수 없지요.",
+    "outcome": "fact",
+    "facts": [
+      "C-Q11"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177570970,
+    "idle": 9,
+    "ids": [
+      "C-Q11"
+    ],
+    "owned": 34
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177574514,
+    "idle": 4,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3544,
+    "usage": {
+      "input": 4335,
+      "output": 1033,
+      "cacheRead": 2555,
+      "cacheWrite": 1203
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177577885,
+    "idle": 7,
+    "tab": "team"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177578000,
+    "idle": 7,
+    "person": "team",
+    "id": "tmvbc99g021",
+    "role": "me",
+    "text": "매입점에 간 금 트로피를 확보해서 혈흔과 지문, 피해자 상처에 맞는지 감정해 주세요. 그리고 준서와 민아가 트로피를 주고받은 메시지도 확인하고 싶습니다.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177583682,
+    "idle": 13,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5656,
+    "usage": {
+      "input": 2681,
+      "output": 976,
+      "cacheRead": 11414,
+      "cacheWrite": 1646
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_start",
+    "at": 1792177583682,
+    "idle": 13,
+    "jobs": [
+      "GT-R06",
+      "GT-R07",
+      "GT-R13"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177583682,
+    "idle": 13,
+    "person": "team",
+    "id": "tmvbc9dtu22",
+    "role": "them",
+    "text": "알겠습니다. 트로피의 행방을 추적해 매입·보관 기록을 확보하겠습니다. 트로피를 회수해 감정하겠습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177584638,
+    "idle": 14,
+    "person": "team",
+    "id": "tmvbc9eke23",
+    "role": "them",
+    "text": "트로피에 남은 흔적을 관계자 표본과 대조하겠습니다. 대상 물건과 원본을 먼저 확보해야 해서 트로피 매각·보관 기록도 함께 맡았습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177585546,
+    "idle": 15,
+    "person": "team",
+    "id": "tmvbc9f9m24",
+    "role": "them",
+    "text": "조사는 한 번에 3건까지 맡습니다. 허락·심부름 대화 확보은(는) 진행 중인 조사가 끝나면 다시 말씀해 주세요. 결과가 나오는 대로 알려 드리겠습니다.",
+    "outcome": "ack"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177597816,
+    "idle": 27,
+    "tab": "person",
+    "ref": "B"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177597940,
+    "idle": 27,
+    "person": "B",
+    "id": "mmvbc9otw25",
+    "role": "me",
+    "text": "준서 씨가 허락받았다고 보낸 메시지를 직접 보여 주세요. 회장님과 따로 약속한 건 없었는지도 확인하고 싶어요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177601117,
+    "idle": 30,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3159,
+    "usage": {
+      "input": 2495,
+      "output": 195,
+      "cacheRead": 17010,
+      "cacheWrite": 6783
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177601117,
+    "idle": 30,
+    "person": "B",
+    "id": "mmvbc9ra526",
+    "role": "them",
+    "text": "준서 씨가 보낸 메시지요? 네, 제 휴대폰에 그대로 남아 있어요. 8시 8분에 준서 씨가 금 트로피를 가져다 달라고 부탁했고, 회장님 허락을 받았다고 했어요.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177601988,
+    "idle": 31,
+    "person": "B",
+    "id": "mmvbc9ryc27",
+    "role": "them",
+    "text": "회장님과 따로 약속하신 건 제가 아는 게 없어요. 제가 들은 건 준서 씨 말뿐이에요. 여기 보여 드릴게요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177601989,
+    "idle": 31,
+    "ids": [
+      "GT-E08"
+    ],
+    "toast": "새 자료: 지원 약속·심부름·카드 대여 대화",
+    "owned": 35
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177601989,
+    "idle": 0,
+    "person": "B",
+    "id": "mmvbc9ryd28",
+    "role": "note",
+    "text": "새 자료 · 지원 약속·심부름·카드 대여 대화",
+    "sub": "관계자 휴대폰의 대화 원본"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177605205,
+    "idle": 3,
+    "person": "B",
+    "id": "mmvbc9ufp29",
+    "role": "me",
+    "text": "지금 메시지를 직접 보여 달라고 부탁드린 거예요. 설명만 말고 원문을 확인할 수 있게 해 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177605571,
+    "idle": 4,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3582,
+    "usage": {
+      "input": 3940,
+      "output": 807,
+      "cacheRead": 3634,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177609705,
+    "idle": 8,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 4480,
+    "usage": {
+      "input": 2776,
+      "output": 629,
+      "cacheRead": 20923,
+      "cacheWrite": 3187
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177609705,
+    "idle": 8,
+    "person": "B",
+    "id": "mmvbc9xwp2a",
+    "role": "them",
+    "text": "아까 보여 드린 그 대화 기록이 그대로 있어요. 휴대폰 화면에서 준서 씨 메시지를 다시 확인해 보시면 됩니다. 제가 아는 건 메시지에 찍힌 시각까지예요.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177614733,
+    "idle": 13,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5028,
+    "usage": {
+      "input": 4103,
+      "output": 1308,
+      "cacheRead": 3634,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177615201,
+    "idle": 13,
+    "person": "B",
+    "id": "mmvbca25d2b",
+    "role": "me",
+    "text": "태준 씨가 당신이 왔을 때 화장실에 있었다고 말을 바꿨어요. 당신이 실제로 들은 말이나 소리가 있나요? 그 안에서 뭘 했는지는 직접 알 수 없죠?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177616896,
+    "idle": 15,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 1672,
+    "usage": {
+      "input": 2966,
+      "output": 149,
+      "cacheRead": 24110,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177616896,
+    "idle": 15,
+    "person": "B",
+    "id": "mmvbca3gg2c",
+    "role": "them",
+    "text": "태준 씨가 화장실에 있었다고요? …저는 아무 말도 듣지 못했어요. 방에 들어갔을 때 아무 소리도 없었고, 회장님 목소리도 듣지 못했어요. 그 안에서 무엇을 하셨는지는 제가 직접 알 수 없어요.",
+    "outcome": "fact",
+    "facts": [
+      "B-Q05"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177621187,
+    "idle": 19,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 4290,
+    "usage": {
+      "input": 4314,
+      "output": 1308,
+      "cacheRead": 3634,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177624407,
+    "idle": 22,
+    "tab": "person",
+    "ref": "A"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177624523,
+    "idle": 23,
+    "person": "A",
+    "id": "mmvbca9cb2d",
+    "role": "me",
+    "text": "아버지의 마지막 문자가 즉시 보낸 게 아니라 예약 문자였대요. 그걸 알고 나니 그날 일을 어떻게 생각해요? 누가 예약했는지는 아직 모릅니다.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177626944,
+    "idle": 25,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2399,
+    "usage": {
+      "input": 2621,
+      "output": 173,
+      "cacheRead": 15478,
+      "cacheWrite": 7364
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177626945,
+    "idle": 25,
+    "person": "A",
+    "id": "mmvbcab7l2e",
+    "role": "them",
+    "text": "예약이요? 그럼 9시 10분에 아버지가 직접 쓰신 문자가 아니라는 거예요? 누가 예약했는지는 저도 모릅니다.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177627985,
+    "idle": 26,
+    "person": "A",
+    "id": "mmvbcac0h2f",
+    "role": "them",
+    "text": "그 문자 말투가 좀 길고 딱딱하다고 느끼긴 했어요. 그래도 그때는 화가 나셨나 보다 했죠. 지금은… 솔직히 머리가 복잡해요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177632997,
+    "idle": 31,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5012,
+    "usage": {
+      "input": 3980,
+      "output": 1347,
+      "cacheRead": 3371,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177633597,
+    "idle": 32,
+    "person": "A",
+    "id": "mmvbcagcd2g",
+    "role": "me",
+    "text": "그걸 받았을 때 화가 났던 마음과 지금 마음이 많이 다를 것 같아요. 아버지가 트로피를 다시 가져오라고 했다고 믿어서 올라간 거죠?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177636090,
+    "idle": 34,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2434,
+    "usage": {
+      "input": 2856,
+      "output": 157,
+      "cacheRead": 22842,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177636093,
+    "idle": 34,
+    "person": "A",
+    "id": "mmvbcai9p2h",
+    "role": "them",
+    "text": "아버지가 그 트로피를 다시 가져오라고 하셨으니까… 허락받은 걸 뒤집으셨다고 생각해서 따지러 올라간 거예요.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177637282,
+    "idle": 35,
+    "person": "A",
+    "id": "mmvbcaj6q2i",
+    "role": "them",
+    "text": "그때는 화가 많이 났어요. 지금은 솔직히 아버지 얼굴이 자꾸 떠올라서 그때 화낸 게 더 걸려요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177642493,
+    "idle": 41,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5209,
+    "usage": {
+      "input": 4295,
+      "output": 1347,
+      "cacheRead": 3371,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177643807,
+    "idle": 42,
+    "tab": "team"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_result",
+    "at": 1792177644146,
+    "idle": 42,
+    "job": "jobmvbc9dtu0",
+    "docs": [
+      "GT-E09",
+      "GT-E10"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177644293,
+    "idle": 42,
+    "person": "team",
+    "id": "tmvbcaolh2j",
+    "role": "me",
+    "text": "조사가 세 건 진행 중이면 유언장 관련 기록은 지금 추가로 못 맡기나요? 가능하면 확인해 주고, 안 되면 자리가 날 때 제가 다시 부탁할게요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177648123,
+    "idle": 46,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3737,
+    "usage": {
+      "input": 2692,
+      "output": 507,
+      "cacheRead": 11414,
+      "cacheWrite": 2291
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_start",
+    "at": 1792177648127,
+    "idle": 46,
+    "jobs": [
+      "GT-R36"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177648127,
+    "idle": 46,
+    "person": "team",
+    "id": "tmvbcarjz2k",
+    "role": "them",
+    "text": "알겠습니다.\n회장님이 그날 만난 법률사무소에 상담 기록과 관련 서류를 요청하겠습니다.\n결과가 나오는 대로 알려 드리겠습니다.",
+    "outcome": "ack"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177657824,
+    "idle": 56,
+    "person": "team",
+    "id": "tmvbcaz1c2l",
+    "role": "me",
+    "text": "지금 제가 가진 문서와 용의자들이 한 말은 모두 알고 계신가요? 태준 씨가 50분 퇴실과 화장실 체류를 인정한 것도 공유됐는지 확인하고 싶어요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177663755,
+    "idle": 62,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5868,
+    "usage": {
+      "input": 2642,
+      "output": 980,
+      "cacheRead": 13705,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177663758,
+    "idle": 62,
+    "person": "team",
+    "id": "tmvbcb3m62m",
+    "role": "them",
+    "text": "지금 자료함에 있는 자료에는 태준 씨가 50분 퇴실이나 화장실 체류를 인정했다는 내용이 없습니다. 자료함에는 발견 개요, 인물 소개, 기록과 감정, 감식 결과, 준서 휴대폰 문자, 매입점 업무 경위 등이 있습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177664636,
+    "idle": 63,
+    "person": "team",
+    "id": "tmvbcb4ak2n",
+    "role": "them",
+    "text": "그 진술이 따로 있었다면 제가 확인할 수 있는 자료에는 올라와 있지 않으니, 아직 공유되지 않은 것으로 보시면 됩니다. 태준 씨의 진술은 직접 물어보시는 게 가장 정확합니다.",
+    "outcome": "talk"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177670907,
+    "idle": 69,
+    "person": "team",
+    "id": "tmvbcb94r2o",
+    "role": "me",
+    "text": "제가 방금 직접 심문해서 들은 내용인데 수사팀에는 공유가 안 되는군요. 그럼 이 대화에서 제가 전한 진술은 확인 전 정보로 따로 다뤄 주세요. 태준이 50분에 나왔다고 인정했다는 사실을 지금 기억할 수 있나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_result",
+    "at": 1792177673720,
+    "idle": 72,
+    "job": "jobmvbc9dtu1",
+    "docs": [
+      "GT-E11"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177676185,
+    "idle": 74,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5191,
+    "usage": {
+      "input": 2782,
+      "output": 779,
+      "cacheRead": 13705,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177676188,
+    "idle": 74,
+    "person": "team",
+    "id": "tmvbcbd7g2p",
+    "role": "them",
+    "text": "말씀하신 진술은 이 대화에서 확인되지 않은 정보로 따로 두겠습니다. 수사팀 자료함에는 태준 씨의 50분 퇴실이나 화장실 체류 인정이 올라와 있지 않아서, 그 내용을 사실로 기억하거나 다른 판단의 근거로 쓰지는 않겠습니다."
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177677354,
+    "idle": 75,
+    "person": "team",
+    "id": "tmvbcbe3u2q",
+    "role": "them",
+    "text": "수사 판단에 쓸 기준은 자료함에 올라온 내용으로 한정하겠습니다. 진술 내용을 자료로 정리해 확보할 기록이 있으면 말씀해 주세요.",
+    "outcome": "talk"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_result",
+    "at": 1792177693132,
+    "idle": 91,
+    "job": "jobmvbcarjv0",
+    "docs": [
+      "GT-E39"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177696501,
+    "idle": 95,
+    "tab": "doc",
+    "ref": "GT-E11"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "team_result",
+    "at": 1792177704125,
+    "idle": 102,
+    "job": "jobmvbc9dtu2",
+    "docs": [
+      "GT-E16",
+      "GT-E17"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177707557,
+    "idle": 106,
+    "tab": "person",
+    "ref": "B"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177707659,
+    "idle": 106,
+    "person": "B",
+    "id": "mmvbcc1hn2r",
+    "role": "me",
+    "text": "트로피가 회장을 때린 흉기로 확인됐어요. 당신이 들고 나올 때 피나 이상한 흔적을 못 봤나요? 옮기며 닦거나 장갑을 쓴 일은요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177709954,
+    "idle": 108,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2271,
+    "usage": {
+      "input": 3169,
+      "output": 181,
+      "cacheRead": 17010,
+      "cacheWrite": 9238
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177709954,
+    "idle": 108,
+    "person": "B",
+    "id": "mmvbcc39e2s",
+    "role": "them",
+    "text": "트로피가 흉기였다는 말씀이에요? …그건 정말 몰랐어요. 들고 나올 때 겉에 눈에 띄는 피는 없었어요.",
+    "outcome": "fact",
+    "facts": [
+      "B-Q17",
+      "B-Q22"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177711000,
+    "idle": 109,
+    "person": "B",
+    "id": "mmvbcc42g2t",
+    "role": "them",
+    "text": "깨끗했어요. 두 손으로 들고 바로 나왔고, 떨어뜨리거나 닦은 적은 없어요. 장갑도 끼지 않았어요. 맨손으로 집었어요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177711000,
+    "idle": 109,
+    "ids": [
+      "B-Q17",
+      "B-Q22"
+    ],
+    "owned": 43
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177714653,
+    "idle": 4,
+    "tab": "doc",
+    "ref": "GT-E16"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177714907,
+    "idle": 4,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3907,
+    "usage": {
+      "input": 4548,
+      "output": 997,
+      "cacheRead": 2533,
+      "cacheWrite": 1312
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177718311,
+    "idle": 7,
+    "tab": "doc",
+    "ref": "GT-E17"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177724639,
+    "idle": 14,
+    "tab": "person",
+    "ref": "B"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177724989,
+    "idle": 14,
+    "person": "B",
+    "id": "mmvbccev12u",
+    "role": "me",
+    "text": "감정에서는 트로피에 당신 양손 지문만 있고 다른 사람 것은 안 나왔대요. 그럼 당신이 범인이라는 뜻 아닌가요? 운반했다는 말 말고 왜 그런지 설명해 주세요.",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177727165,
+    "idle": 16,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2120,
+    "usage": {
+      "input": 3428,
+      "output": 153,
+      "cacheRead": 26248,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177727165,
+    "idle": 16,
+    "person": "B",
+    "id": "mmvbccgjh2v",
+    "role": "them",
+    "text": "그러니까 트로피를 제가 맨손으로 들었으니 제 지문만 나오는 건 이상하지 않을 수 있어요. 하지만 회장님 지문도 없다고 하셨죠?",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177728362,
+    "idle": 17,
+    "person": "B",
+    "id": "mmvbcchgq2w",
+    "role": "them",
+    "text": "그건 저도 정말 모르겠어요. 제가 집은 자리에 누가 손을 댔는지는 본 적이 없어요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177732145,
+    "idle": 21,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3782,
+    "usage": {
+      "input": 4961,
+      "output": 921,
+      "cacheRead": 3845,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177733105,
+    "idle": 22,
+    "person": "B",
+    "id": "mmvbccl4h2x",
+    "role": "me",
+    "text": "누군가 닦았다고 생각하는 건 추측이죠? 누가 닦았는지 본 건 아니고, 당신은 닦지 않았다는 뜻으로 이해하면 되나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177734725,
+    "idle": 24,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 1572,
+    "usage": {
+      "input": 3547,
+      "output": 125,
+      "cacheRead": 26248,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177734726,
+    "idle": 24,
+    "person": "B",
+    "id": "mmvbccmdi2y",
+    "role": "them",
+    "text": "아니요, 닦았다는 건 제가 본 게 아니라 추측이에요. 바닥이나 트로피를 닦는 걸 본 적은 없어요. 저는 트로피를 닦지 않았고, 두 손으로 들고 바로 나왔어요.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177739656,
+    "idle": 29,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 4930,
+    "usage": {
+      "input": 5136,
+      "output": 1473,
+      "cacheRead": 3845,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177740265,
+    "idle": 29,
+    "tab": "doc",
+    "ref": "GT-E39"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177748894,
+    "idle": 38,
+    "tab": "person",
+    "ref": "A"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177749238,
+    "idle": 38,
+    "person": "A",
+    "id": "mmvbccxkm2z",
+    "role": "me",
+    "text": "변호사 자료에는 아버지가 상속 대부분을 재단에 주고 당신에게는 최소 몫만 남기려 했다고 나와요. 아직 서명 전 초안이었고요. 그날 이 내용까지 알고 있었나요, 지금 처음 듣나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177751275,
+    "idle": 40,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 1964,
+    "usage": {
+      "input": 3098,
+      "output": 187,
+      "cacheRead": 15478,
+      "cacheWrite": 9483
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177751275,
+    "idle": 40,
+    "person": "A",
+    "id": "mmvbccz5730",
+    "role": "them",
+    "text": "네… 그건 처음 들어요. 아버지가 상속을 거의 다 재단에 주시려고 했다고요? 저한테는 아무 말씀도 안 하셨어요.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177752458,
+    "idle": 41,
+    "person": "A",
+    "id": "mmvbcd02231",
+    "role": "them",
+    "text": "그날 통화에서 변호사 만나서 뒷일을 정리해 뒀다는 말만 들었어요. 몇 번을 도와줘도 그대로라는 말씀이 있었다면… 틀린 말이 아니라서 할 말이 없네요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177757532,
+    "idle": 47,
+    "person": "A",
+    "id": "mmvbcd3z032",
+    "role": "me",
+    "text": "아까는 상속에서 뺄까 봐 겁났다고 했고, 지금은 구체적인 초안을 처음 알았다는 거군요. 둘이 모순되는 건 아닌지 본인 말로 정리해 줄래요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177757706,
+    "idle": 47,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5247,
+    "usage": {
+      "input": 4568,
+      "output": 1434,
+      "cacheRead": 3371,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177760238,
+    "idle": 49,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 2643,
+    "usage": {
+      "input": 3354,
+      "output": 207,
+      "cacheRead": 24961,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177760238,
+    "idle": 49,
+    "person": "A",
+    "id": "mmvbcd62633",
+    "role": "them",
+    "text": "아까 말씀드린 게 상속에서 빠질까 봐 겁났던 거고, 초안은 오늘 처음 들은 거예요. 둘이 맞지 않는다고 보면 안 되는 것 같아요.",
+    "outcome": "written"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177761373,
+    "idle": 50,
+    "person": "A",
+    "id": "mmvbcd6xp34",
+    "role": "them",
+    "text": "그날 통화에서는 변호사가 뒷일을 정리해 뒀다는 말만 들었고, 그게 어떤 내용인지는 몰랐어요. 겁났던 건 그 말 때문이었고, 구체적인 초안은 몰랐던 거예요.",
+    "outcome": "cont"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177765171,
+    "idle": 54,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3797,
+    "usage": {
+      "input": 4924,
+      "output": 1049,
+      "cacheRead": 3371,
+      "cacheWrite": 0
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177782946,
+    "idle": 72,
+    "tab": "person",
+    "ref": "C"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177783274,
+    "idle": 72,
+    "person": "C",
+    "id": "mmvbcdnu235",
+    "role": "me",
+    "text": "정리해서 확인할게요. 당신은 8시 50분에 나왔고, 민아가 왔을 때 화장실에 있었고, 9시 10분 문자는 생존 증거가 못 된다는 데까지 인정하신 거죠? 이 세 가지 중 다시 바꿀 말이 있나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177789008,
+    "idle": 78,
+    "task": "talk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 5649,
+    "usage": {
+      "input": 3427,
+      "output": 992,
+      "cacheRead": 23161,
+      "cacheWrite": 5159
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177789008,
+    "idle": 78,
+    "person": "C",
+    "id": "mmvbcds9c36",
+    "role": "them",
+    "text": "네, 그대로입니다. 8시 50분에 나왔고, 민아 씨가 들어왔을 때 저는 화장실 안에 있었습니다. 9시 10분 문자로 회장님이 살아 계셨다고 주장하지는 않겠습니다. 바꿀 말은 없습니다.",
+    "outcome": "fact",
+    "facts": [
+      "C-Q25"
+    ]
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "reveal",
+    "at": 1792177789008,
+    "idle": 78,
+    "ids": [
+      "C-Q25"
+    ],
+    "owned": 44
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177792920,
+    "idle": 4,
+    "task": "statement",
+    "route": "proxy",
+    "ok": true,
+    "ms": 3912,
+    "usage": {
+      "input": 4581,
+      "output": 1033,
+      "cacheRead": 2555,
+      "cacheWrite": 1276
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "open",
+    "at": 1792177824628,
+    "idle": 36,
+    "tab": "team"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177825060,
+    "idle": 36,
+    "person": "team",
+    "id": "tmvbcek2s37",
+    "role": "me",
+    "text": "사인 감정 보고서의 사망 추정 시각 부분을 설명해 주세요. 이 자료만으로 정확히 몇 시 몇 분에 죽었는지 알 수 있나요?",
+    "status": "pending"
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "ai",
+    "at": 1792177826650,
+    "idle": 38,
+    "task": "desk",
+    "route": "proxy",
+    "ok": true,
+    "ms": 1520,
+    "usage": {
+      "input": 2775,
+      "output": 178,
+      "cacheRead": 11414,
+      "cacheWrite": 3034
+    }
+  },
+  {
+    "run": "mvbc1ra0gts03e5s",
+    "type": "chat",
+    "at": 1792177826652,
+    "idle": 38,
+    "person": "team",
+    "id": "tmvbcelb038",
+    "role": "them",
+    "text": "어떤 기록을 찾으시는지 조금만 더 짚어 주시겠어요? 사람이나 물건, 기록의 이름을 말씀해 주시면 바로 찾겠습니다.",
+    "outcome": "talk"
+  }
+]

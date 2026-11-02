@@ -1,0 +1,11 @@
+{
+  "name": "미해결 사건 파일",
+  "short_name": "미해결 사건",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#e9e5dc",
+  "background_color": "#e9e5dc",
+  "display": "standalone"
+}

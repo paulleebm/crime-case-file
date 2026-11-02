@@ -1,0 +1,194 @@
+- button "처음 화면으로":
+- generic: 사건명
+- generic: 호텔 로베르 집무실 사건
+- generic: 사건 번호
+- generic: 2026-도심-1012
+- generic: 확보 자료
+- generic: 18건
+- button "◀":
+  - text: ◀
+- generic "배경음악 채널":
+  - generic: FM 97.3
+  - generic: 느와르 피아노
+- button "▶":
+  - text: ▶
+- generic: 음악
+- slider "음악 음량":
+- generic: 효과음
+- slider "효과음 음량":
+- button "힌트" [active]:
+  - text: 힌트
+- generic: 힌트
+- generic: 매입 계약·입고 기록
+- list:
+  - listitem: 자료함에 아직 읽지 않은 「매입 계약·입고·보관 원본」이 있다. 트로피가 언제부터 어디에 있었는지 먼저 확인해 보자.
+- button "더 자세히":
+  - text: 더 자세히
+- generic: 용의자
+- button "류준서 회장의 외아들 · 발견·신고":
+  - generic: 류준서
+  - generic: 회장의 외아들 · 발견·신고
+- button "서민아 행사 지원 직원":
+  - generic: 서민아
+  - generic: 행사 지원 직원
+- button "문태준 호텔 총지배인":
+  - generic: 문태준
+  - generic: 호텔 총지배인
+- generic: 수사팀
+- button "수사팀 ● 결과 도착":
+  - generic: 수사팀
+  - generic: ● 결과 도착
+- generic: 자료
+- generic: 현장
+- button "├ 사건 개요":
+  - generic: ├
+  - generic: 사건 개요
+- button "├ 집무실 평면도":
+  - generic: ├
+  - generic: 집무실 평면도
+- button "├ 발견 개요":
+  - generic: ├
+  - generic: 발견 개요
+- button "├ 인물 소개":
+  - generic: ├
+  - generic: 인물 소개
+- button "├ 현장 감식 결과 새 자료":
+  - generic: ├
+  - generic: 현장 감식 결과
+  - generic: 새 자료
+- button "└ 진열대 기념품 대장 새 자료":
+  - generic: └
+  - generic: 진열대 기념품 대장
+  - generic: 새 자료
+- generic: 감정
+- button "├ 사인 감정":
+  - generic: ├
+  - generic: 사인 감정
+- button "├ 독성·약물 검사 새 자료":
+  - generic: ├
+  - generic: 독성·약물 검사
+  - generic: 새 자료
+- button "└ 회수 트로피·치명 손상 대조":
+  - generic: └
+  - generic: 회수 트로피·치명 손상 대조
+- generic: 통화·문자
+- button "├ 준서 휴대폰의 아버지 문자 새 자료":
+  - generic: ├
+  - generic: 준서 휴대폰의 아버지 문자
+  - generic: 새 자료
+- button "├ 지원 약속·심부름·카드 대여 대화":
+  - generic: ├
+  - generic: 지원 약속·심부름·카드 대여 대화
+- button "└ 통화 기록·녹취":
+  - generic: └
+  - generic: 통화 기록·녹취
+- generic: 출입·동선
+- button "├ 집무실 문 열림 기록 원본":
+  - generic: ├
+  - generic: 집무실 문 열림 기록 원본
+- button "├ 엘리베이터 운행 기록 새 자료":
+  - generic: ├
+  - generic: 엘리베이터 운행 기록
+  - generic: 새 자료
+- button "├ 매입 계약·입고·보관 원본 새 자료":
+  - generic: ├
+  - generic: 매입 계약·입고·보관 원본
+  - generic: 새 자료
+- button "├ 매입점 업무 경위 확인":
+  - generic: ├
+  - generic: 매입점 업무 경위 확인
+- button "└ 온정귀금속 방문 대장 새 자료":
+  - generic: └
+  - generic: 온정귀금속 방문 대장
+  - generic: 새 자료
+- generic: 돈·인물
+- button "├ 횡령 소명 요청·정산 자료":
+  - generic: ├
+  - generic: 횡령 소명 요청·정산 자료
+- button "├ 회계팀 정산 점검 메모 새 자료":
+  - generic: ├
+  - generic: 회계팀 정산 점검 메모
+  - generic: 새 자료
+- button "└ 변호사 상담 기록·유언 변경 초안":
+  - generic: └
+  - generic: 변호사 상담 기록·유언 변경 초안
+- generic: 근거 트레이
+- generic: 자료·진술서·대화의 밑줄 친 문장을 누르면 여기에 모인다. 심문 대화창으로 끌어다 놓아 첨부한다.
+- button "사건 재구성 · 제출":
+  - generic: 사건 재구성 · 제출
+- generic "현장 · 인물 소개":
+  - generic: 현장 · 인물 소개
+  - generic "닫기": ✕
+- generic "용의자 · 서민아":
+  - generic: 용의자 · 서민아
+  - generic "닫기": ✕
+- generic "수사팀":
+  - generic: 수사팀
+  - generic "닫기": ✕
+- generic "돈·인물 · 횡령 소명 요청·정산 자료":
+  - generic: 돈·인물 · 횡령 소명 요청·정산 자료
+  - generic "닫기": ✕
+- generic "출입·동선 · 매입점 업무 경위 확인":
+  - generic: 출입·동선 · 매입점 업무 경위 확인
+  - generic "닫기": ✕
+- generic "통화·문자 · 지원 약속·심부름·카드 대여 대화":
+  - generic: 통화·문자 · 지원 약속·심부름·카드 대여 대화
+  - generic "닫기": ✕
+- generic "감정 · 회수 트로피·치명 손상 대조":
+  - generic: 감정 · 회수 트로피·치명 손상 대조
+  - generic "닫기": ✕
+- generic: 돈·인물
+- button "횡령 소명 요청·정산 자료":
+  - text: 횡령 소명 요청·정산 자료
+- button "회계팀 정산 점검 메모 새 자료":
+  - text: 회계팀 정산 점검 메모
+  - generic: 새 자료
+- button "변호사 상담 기록·유언 변경 초안":
+  - text: 변호사 상담 기록·유언 변경 초안
+- heading "횡령 소명 요청·정산 자료" [level=3]
+- generic: GT-E13 · 기록 출력물 · 수사팀 요청 · 회장 휴대폰 업무 대화와 회사 정산 대조
+- generic: 밑줄 친 문장을 누르면 근거 트레이에 담긴다.
+- generic: "[회장 → 문태준] 10/12 12:40 운영비 6,400만원이 네 개인 계좌로 넘어간 내역을 확인했다. 오늘 20:30 집무실에서 설명해라. 정산서도 가져와라."
+- generic: "[문태준 → 회장] 10/12 12:44 직접 설명드리겠습니다."
+- table:
+  - rowgroup:
+    - row "지급일 금액 명목 지급처 대조":
+      - columnheader "지급일"
+      - columnheader "금액"
+      - columnheader "명목"
+      - columnheader "지급처 대조"
+  - rowgroup:
+    - row "6월 4일 1,600만원 행사 선지급 문태준 개인 계좌":
+      - cell "6월 4일"
+      - cell "1,600만원"
+      - cell "행사 선지급"
+      - cell "문태준 개인 계좌"
+    - row "7월 2일 1,600만원 행사 선지급 문태준 개인 계좌":
+      - cell "7월 2일"
+      - cell "1,600만원"
+      - cell "행사 선지급"
+      - cell "문태준 개인 계좌"
+    - row "8월 6일 1,600만원 행사 선지급 문태준 개인 계좌":
+      - cell "8월 6일"
+      - cell "1,600만원"
+      - cell "행사 선지급"
+      - cell "문태준 개인 계좌"
+    - row "9월 3일 1,600만원 행사 선지급 문태준 개인 계좌":
+      - cell "9월 3일"
+      - cell "1,600만원"
+      - cell "행사 선지급"
+      - cell "문태준 개인 계좌"
+- table:
+  - rowgroup
+- alert:
+  - generic: 수사팀 · 결과 도착
+  - button "✕"
+  - generic: 현장 감식
+  - list:
+    - text: 현장 감식 결과
+    - text: 진열대 기념품 대장
+  - button "나중에 읽기":
+    - text: 나중에 읽기
+  - button "바로 읽기":
+    - text: 바로 읽기
+- text: "새 자료: 지원 약속·심부름·카드 대여 대화"

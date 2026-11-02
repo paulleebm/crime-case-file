@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1440">
+<script>
+  /* 휴대폰·태블릿이면 고정 폭 대신 기기 폭으로 그린다 (게임 대신 PC 접속 안내가 뜬다, src/ui/MobileBlock.tsx) */
+  (function () {
+    var ua = navigator.userAgent;
+    var m = (navigator.userAgentData && navigator.userAgentData.mobile) || /Android|iPhone|iPad|iPod|Mobile|Silk|Kindle|Opera Mini|IEMobile/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    if (m) document.querySelector('meta[name=viewport]').setAttribute('content', 'width=device-width, initial-scale=1');
+  })();
+</script>
+<title>미해결 사건 파일</title>
+<meta name="description" content="기록은 남았지만 답은 남지 않은 사건들. 진술과 기록 사이의 어긋남을 찾아 다시 맞추는 문서 추리 게임.">
+<meta name="theme-color" content="#e9e5dc">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="미해결 사건 파일">
+<meta property="og:title" content="미해결 사건 파일">
+<meta property="og:description" content="기록은 남았지만 답은 남지 않은 사건들. 진술과 기록 사이의 어긋남을 찾아 다시 맞춰라.">
+<meta property="og:url" content="https://crime-case-file.web.app/">
+<meta property="og:image" content="https://crime-case-file.web.app/og-image-20261018.png">
+<meta property="og:image:width" content="1731">
+<meta property="og:image:height" content="909">
+<meta property="og:image:alt" content="연필로 그린 사건 서류철과 「미해결」 도장, 미해결 사건 파일 표지">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="미해결 사건 파일">
+<meta name="twitter:description" content="진술과 기록 사이의 어긋남을 찾아 다시 맞추는 문서 추리 게임.">
+<meta name="twitter:image" content="https://crime-case-file.web.app/og-image-20261018.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;700&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

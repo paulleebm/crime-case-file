@@ -1,0 +1,42 @@
+[
+  {
+    "level": "warn",
+    "timestamp": "2026-10-13T09:04:01.060Z",
+    "message": "[AI 해석 실패] FirebaseError: AI: Error fetching from [주소 생략] Failed to fetch (AI/error)"
+  },
+  {
+    "level": "warn",
+    "timestamp": "2026-10-13T09:11:00.885Z",
+    "message": "[AI 해석 실패] Error: timeout"
+  },
+  {
+    "level": "warn",
+    "timestamp": "2026-10-13T09:13:32.311Z",
+    "message": "[AI 해석 실패] Error: timeout"
+  },
+  {
+    "level": "warn",
+    "timestamp": "2026-10-13T09:14:35.975Z",
+    "message": "[AI 해석 실패] Error: timeout"
+  },
+  {
+    "level": "warn",
+    "timestamp": "2026-10-13T09:16:29.442Z",
+    "message": "[AI 해석 실패] Error: timeout"
+  },
+  {
+    "level": "warn",
+    "timestamp": "2026-10-13T09:17:55.603Z",
+    "message": "[AI 해석 실패] Error: timeout"
+  },
+  {
+    "level": "warn",
+    "timestamp": "2026-10-13T09:21:29.792Z",
+    "message": "[AI 해석 실패] Error: timeout"
+  },
+  {
+    "level": "warn",
+    "timestamp": "2026-10-13T09:25:02.123Z",
+    "message": "[AI 해석 실패] Error: timeout"
+  }
+]

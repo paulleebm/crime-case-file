@@ -1,0 +1,108 @@
+- button "처음 화면으로":
+- generic: 사건명
+- generic: 다온 인테리어 상담실 사건
+- generic: 사건 번호
+- generic: 2026-도심-1016
+- generic: 확보 자료
+- generic: 1건
+- button "◀":
+  - text: ◀
+- generic "배경음악 채널":
+  - generic: FM 97.3 · 꺼짐
+  - generic: 느와르 피아노
+- button "▶":
+  - text: ▶
+- generic: 음악
+- slider "음악 음량":
+- generic: 효과음
+- slider "효과음 음량":
+- button "힌트" [active]:
+  - text: 힌트
+- generic: 힌트
+- paragraph: 수사 수첩을 넘겨 보는 중…
+- generic: 용의자
+- button "윤해린 초상 윤해린 환불을 요구한 고객":
+  - img "윤해린 초상"
+  - generic: 윤해린
+  - generic: 환불을 요구한 고객
+- button "강도현 초상 강도현 공동운영자 · 최초 신고자":
+  - img "강도현 초상"
+  - generic: 강도현
+  - generic: 공동운영자 · 최초 신고자
+- generic: 수사팀
+- button "수사팀":
+  - generic: 수사팀
+  - status:
+    - generic: 현장·흉기 감식
+    - progressbar
+    - generic: 0:04
+    - generic: 외 2건 진행 중
+- generic: 자료
+- generic: 현장
+- button "├ 사건 개요":
+  - generic: ├
+  - generic: 사건 개요
+- button "├ 사무실 평면도":
+  - generic: ├
+  - generic: 사무실 평면도
+- button "└ 발견 개요 · 현장 기록":
+  - generic: └
+  - generic: 발견 개요 · 현장 기록
+- text: 근거 트레이
+- generic: 자료·진술서·대화의 밑줄 친 문장을 누르면 여기에 모인다. 심문 대화창으로 끌어다 놓아 첨부한다.
+- button "메모장":
+  - generic: 메모장
+- button "사건 재구성 · 제출":
+  - generic: 사건 재구성 · 제출
+- generic "현장 · 사건 개요":
+  - generic: 현장 · 사건 개요
+  - generic "닫기":
+- generic "용의자 · 강도현":
+  - generic: 용의자 · 강도현
+  - generic "닫기":
+- generic "수사팀":
+  - generic: 수사팀
+  - generic "닫기":
+- img "강도현 초상"
+- text: 강도현
+- generic: 공동운영자 · 최초 신고자 · 41세
+- generic "지금까지 인정한 범위에 따른 태도": 침착 · 협조적
+- generic: 참고인
+- heading "진 술 서" [level=2]
+- table:
+  - rowgroup:
+    - row "사건 번호 2026-도심-1016":
+      - rowheader "사건 번호"
+      - cell "2026-도심-1016"
+    - row "작성 일시 2026. 10. 17. 09:30":
+      - rowheader "작성 일시"
+      - cell "2026. 10. 17. 09:30"
+    - row "성명 강도현 · (41세)":
+      - rowheader "성명"
+      - cell "강도현 · (41세)"
+    - row "직업 공동운영자 · 최초 신고자":
+      - rowheader "직업"
+      - cell "공동운영자 · 최초 신고자"
+    - row "주소 · 연락처 서울 (이하 비공개) · 비공개":
+      - rowheader "주소 · 연락처"
+      - cell "서울 (이하 비공개) · 비공개"
+    - row "피해자와의 관계 공동운영자 · 최초 신고자":
+      - rowheader "피해자와의 관계"
+      - cell "공동운영자 · 최초 신고자"
+    - row "작성 장소 도심경찰서 강력팀 면담실":
+      - rowheader "작성 장소"
+      - cell "도심경찰서 강력팀 면담실"
+- generic: 본인은 2026년 10월 16일 다온 인테리어 상담실에서 발생한 한정우 사망 사건에 관하여 아는 바를 진술합니다.
+- paragraph: 아직 받은 진술이 없다. 질문한 주제의 관련 진술이 해당 항목에 정리된다.
+- generic: 위 진술 내용은 사실과 다름없음을 확인하며, 자필로 서명합니다.
+- generic: 2026. 10. 17.
+- generic: 진술인 강 도 현
+- generic: 인
+- generic: 강도현
+- generic: 네, 형사님. 제가 발견했을 때 상황부터 말씀드리면 될까요?
+- generic: 수사관
+- generic: 어제 언제 사무실을 나갔다 돌아와 발견하고 신고했나요? 그 사이에는 돌아온 적 없습니까?
+- generic "강도현이 답하는 중":
+- textbox "강도현의 답을 기다리는 중… (다른 자료를 봐도 된다)"
+- button "말하기" [disabled]:
+  - text: 말하기

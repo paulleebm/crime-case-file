@@ -1,0 +1,143 @@
+- button "처음 화면으로":
+- generic: 사건명
+- generic: 다온 인테리어 상담실 사건
+- generic: 사건 번호
+- generic: 2026-도심-1016
+- generic: 확보 자료
+- generic: 1건
+- button "◀":
+  - text: ◀
+- generic "배경음악 채널":
+  - generic: FM 97.3 · 꺼짐
+  - generic: 느와르 피아노
+- button "▶":
+  - text: ▶
+- generic: 음악
+- slider "음악 음량":
+- generic: 효과음
+- slider "효과음 음량":
+- button "힌트":
+  - text: 힌트
+- generic: 용의자
+- button "윤해린 초상 윤해린 환불을 요구한 고객":
+  - img "윤해린 초상"
+  - generic: 윤해린
+  - generic: 환불을 요구한 고객
+- button "강도현 초상 강도현 공동운영자 · 최초 신고자":
+  - img "강도현 초상"
+  - generic: 강도현
+  - generic: 공동운영자 · 최초 신고자
+- generic: 수사팀
+- button "수사팀 원본 조회 · 감정 요청":
+  - generic: 수사팀
+  - generic: 원본 조회 · 감정 요청
+- generic: 자료
+- generic: 현장
+- button "├ 사건 개요":
+  - generic: ├
+  - generic: 사건 개요
+- button "├ 사무실 평면도":
+  - generic: ├
+  - generic: 사무실 평면도
+- button "└ 발견 개요 · 현장 기록":
+  - generic: └
+  - generic: 발견 개요 · 현장 기록
+- text: 근거 트레이
+- generic: 자료·진술서·대화의 밑줄 친 문장을 누르면 여기에 모인다. 심문 대화창으로 끌어다 놓아 첨부한다.
+- button "메모장":
+  - generic: 메모장
+- button "사건 재구성 · 제출":
+  - generic: 사건 재구성 · 제출
+- generic "현장 · 사건 개요":
+  - generic: 현장 · 사건 개요
+  - generic "닫기":
+- generic: 현장
+- button "사건 개요":
+  - text: 사건 개요
+- button "사무실 평면도":
+  - text: 사무실 평면도
+- button "발견 개요 · 현장 기록":
+  - text: 발견 개요 · 현장 기록
+- generic: 도 심 경 찰 서
+- table:
+  - rowgroup:
+    - row "담당 팀장 과장":
+      - columnheader "담당"
+      - columnheader "팀장"
+      - columnheader "과장"
+    - row "수사 강 전결":
+      - cell "수사":
+        - generic: 수사
+      - cell "강":
+        - generic: 강
+      - cell "전결":
+        - generic: 전결
+- table:
+  - rowgroup:
+    - row "문서 번호 형사과-2026-도심-1016 시행 일자 2026. 10. 17.":
+      - rowheader "문서 번호"
+      - cell "형사과-2026-도심-1016"
+      - rowheader "시행 일자"
+      - cell "2026. 10. 17."
+    - row "수신 담당 수사관 참조 강력팀장":
+      - rowheader "수신"
+      - cell "담당 수사관"
+      - rowheader "참조"
+      - cell "강력팀장"
+    - row "제목 다온 인테리어 상담실 사건 수사 인계":
+      - rowheader "제목"
+      - cell "다온 인테리어 상담실 사건 수사 인계":
+        - generic: 다온 인테리어 상담실 사건 수사 인계
+- heading "1. 사건 개요" [level=4]
+- paragraph: 2026년 10월 16일 저녁, 서울의 작은 인테리어 사무소 다온 인테리어. 대표 한정우(46)가 상담실 바닥에서 숨진 채 발견됐다. 19시 6분, 공동운영자 강도현이 신고했다.
+- paragraph: 피해자는 머리에 강한 타격을 입었다. 현장에는 피 묻은 유리 문진이 놓여 있었다.
+- paragraph: 그날 저녁 사무실에 드나든 조사 대상자는 두 명이다. 계약금 환불을 요구한 고객 윤해린, 계약과 자금을 관리한 공동운영자 강도현. 범인은 이 둘 가운데 있다.
+- heading "2. 피해자와 면담 대상" [level=4]
+- table:
+  - rowgroup:
+    - row "성명 소속 · 직책 그날 저녁 비고":
+      - columnheader "성명"
+      - columnheader "소속 · 직책"
+      - columnheader "그날 저녁"
+      - columnheader "비고"
+  - rowgroup:
+    - row "한정우 (46) 다온 인테리어 대표 상담실 피해자":
+      - cell "한정우 (46)"
+      - cell "다온 인테리어 대표"
+      - cell "상담실"
+      - cell "피해자"
+    - row "윤해린 (34) 환불을 요구한 고객 환불 상담":
+      - cell "윤해린 (34)"
+      - cell "환불을 요구한 고객"
+      - cell "환불 상담"
+      - cell
+    - row "강도현 (41) 공동운영자 · 최초 신고자 대표 발견·신고 신고자":
+      - cell "강도현 (41)"
+      - cell "공동운영자 · 최초 신고자"
+      - cell "대표 발견·신고"
+      - cell "신고자"
+- heading "3. 수사 목표" [level=4]
+- paragraph:
+  - text: 그날 저녁 상담실에서 무슨 일이 있었는지 밝힌다.
+  - text: 범인과 그 근거를 사건 재구성으로 정리해 제출한다.
+- heading "4. 수사 유의사항" [level=4]
+- list:
+  - text: 면담 왼쪽에서 용의자를 누르면 진술서와 대화창이 열린다.
+  - text: 궁금한 것을 그대로 물으면 된다.
+  - text: 들은 내용은 진술서에 정리된다.
+  - text: 자료 요청 원본 기록과 감정 결과는 저절로 오지 않는다.
+  - text: 수사팀에 “부검 결과 보내 주세요”처럼 요청하면, 조사가 끝난 뒤 자료함에 들어온다.
+  - text: 기다리는 동안 면담을 계속해도 된다.
+  - text: 관계자 휴대폰 속 내용은 그 사람에게 직접 보여 달라고 한다.
+  - text: 근거 제시 밑줄 친 문장을 누르면 왼쪽 아래 근거 트레이에 담긴다.
+  - text: 근거를 대화창으로 끌어다 놓고 ‘근거 제시’를 누른다.
+  - text: 진술과 어긋나는 근거를 내밀면 상대가 사실을 인정한다.
+  - text: 한 번에 넷까지 함께 낼 수 있다.
+  - text: 힌트 막히면 오른쪽 위 힌트를 누른다.
+  - text: 누를수록 더 자세히 알려 준다.
+  - text: 사건 해결 왼쪽 맨 아래 사건 재구성에서 범인과 범행을 정리해 제출한다.
+  - text: 제출은 한 번뿐이다.
+  - text: 근거가 모였을 때 낸다.
+- generic: 끝.
+- text: 도심경찰서장
+- generic: 서장

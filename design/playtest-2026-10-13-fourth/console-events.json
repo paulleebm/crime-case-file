@@ -1,0 +1,80 @@
+{
+  "cursor": 131,
+  "hasMore": false,
+  "truncated": true,
+  "events": [
+    {
+      "sequence": 130,
+      "source": {
+        "tabId": 2
+      },
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "args": [
+          {
+            "type": "string",
+            "value": "[AI 해석 원문]"
+          },
+          {
+            "type": "string",
+            "value": "{\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F5c\"],\"direct\":false,\"quote\":\"\"}],\"confidence\":0.9}"
+          }
+        ],
+        "executionContextId": 3,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "columnNumber": 36,
+              "functionName": "send",
+              "lineNumber": 307,
+              "scriptId": "68",
+              "url": "http://127.0.0.1:5194/src/ui/conversation.ts"
+            }
+          ]
+        },
+        "timestamp": 1791899863913.833,
+        "type": "info"
+      }
+    },
+    {
+      "sequence": 131,
+      "source": {
+        "tabId": 2
+      },
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "args": [
+          {
+            "type": "string",
+            "value": "[AI 해석]"
+          },
+          {
+            "type": "string",
+            "value": "{\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F5c\"],\"direct\":false,\"quote\":\"\"}],\"confidence\":0.9}"
+          }
+        ],
+        "executionContextId": 3,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "columnNumber": 35,
+              "functionName": "apply",
+              "lineNumber": 34,
+              "scriptId": "68",
+              "url": "http://127.0.0.1:5194/src/ui/conversation.ts"
+            },
+            {
+              "columnNumber": 8,
+              "functionName": "send",
+              "lineNumber": 350,
+              "scriptId": "68",
+              "url": "http://127.0.0.1:5194/src/ui/conversation.ts"
+            }
+          ]
+        },
+        "timestamp": 1791899863913.929,
+        "type": "info"
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F1\"],\"quote\":\"2021년부터 대표님 비서로 일했어요. 일정하고 대표님 정산 자료를 맡았고요. 5년 동안 좋은 말은 거의 못 들었지만, 일은 …\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F2\"],\"quote\":\"다투긴요. 업무 이야기를 하다 목소리가 조금 커졌을 수는 있어요. 그게 다예요.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-D01\"],\"quote\":\"대표님이 몇 시에 돌아가셨는지 저는 몰라요. 10시 15분부터 12시 반까지는 1층 비즈니스 센터에 있었어요. 11시까지는 센…\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:42:08.979Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F7\"],\"quote\":\"10시 15분에 객실을 나와서 1층 비즈니스 센터에서 자료를 정리했어요.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-D15\"],\"quote\":\"대표님이 업무용으로 한 장 더 받아서 저한테 맡기셨어요. 10시 5분에는 대표님이 문을 열어 주셔서 카드를 쓰지 않았어요. 오…\",\"direct\":false},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-D11\"],\"quote\":\"고친 자료를 확인받으려고요. 안 받으셔서 자정에 한 번 더 걸었어요.\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:42:33.599Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"A-01.1\",\"A-F2\"],\"citedEvidenceIds\":[\"E-16\"],\"factIds\":[],\"quote\":\"\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[\"E-16\"],\"factIds\":[\"A-D03\"],\"quote\":\"회계 서류였어요. 제가 말씀드릴 건 아닌 것 같아요.\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:42:51.943Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-D03b\"],\"quote\":\"용역비로 나간 돈 가운데 실제 용역이 없는 게 있었어요. 결재는 권태석 대표님이었고요.\",\"direct\":false},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F24b\"],\"quote\":\"결재한 …\",\"direct\":false}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:43:05.877Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-D03b\"],\"quote\":\"도담컨설팅 용역은 실제 수행된 적이 없는 돈이었어요. 결재 서류에는 권 대표님 이름만 있었고요.\",\"direct\":false}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:43:48.704Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-12\"],\"quote\":\"내일 감사에 넘길 자료예요. 용역비로 나간 돈 가운데 실제 용역이 없는 게 있었어요. 결재는 권태석 대표님이었고요.\",\"direct\":false}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:44:11.723Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-12\"],\"quote\":\"내일 감사에 넘길 자료예요. 용역비로 나간 돈 가운데 실제 용역이 없는 게 있었어요. 결재는 권태석 대표님이었고요. 대표님은 …\",\"direct\":false},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F23b\"],\"quote\":\"결재 서류에는 권 대표님 이름만 있어요. 누가 지급을 지시했는지는 서류에 안 남고요. 대표님은 본인이 지시한 적 없다고 하셨어…\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:44:41.529Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F4\"],\"quote\":\"9시 35분쯤 같이 올라가서 회사 일을 이야기했습니다.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F24\"],\"quote\":\"아니요. 10시 반에 차로 나간 게 마지막입니다.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"C-F26\"],\"quote\":\"제가 나올 때 도현이는 오늘 일정은 끝났다고 했습니다. 더 만날 사람도 없다고요.\"}],\"confidence\":0.98}",
+    "timestamp": "2026-10-13T05:45:29.228Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-01.8\",\"C-F26\"],\"citedEvidenceIds\":[\"E-07\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:45:49.577Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"B-F3\"],\"quote\":\"6시 40분쯤 제가 받아서 지하 C12에 세웠어요. 입고표도 제가 썼고요. 확실해요.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"B-F5\"],\"quote\":\"입고한 뒤로 한 번도 안 움직였어요. 키도 보관함에 그대로 있었고요.\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"B-F6\"],\"quote\":\"밤새 데스크에 있었어요. 화장실 잠깐 간 거 말고는요.\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T05:46:20.018Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"B-01.4\",\"B-F5\"],\"citedEvidenceIds\":[\"E-06\",\"E-09\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T05:46:39.796Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"B-01.4\",\"B-02.1\",\"B-02.2\"],\"citedEvidenceIds\":[\"E-10\",\"E-11\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:47:08.975Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-01.4\",\"C-01.3\"],\"citedEvidenceIds\":[\"E-12\",\"E-06\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:47:41.604Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-02.2\"],\"citedEvidenceIds\":[\"E-07\",\"E-13\"],\"factIds\":[],\"quote\":\"\"},{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[\"E-07\",\"E-13\"],\"factIds\":[\"C-F12a\"],\"quote\":\"10시 전에도 그 방에서 도현이와 술을 마셨습니다. 제 지문은 그때 잔을 잡아서 남았을 겁니다.\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:48:26.571Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-04.4\"],\"citedEvidenceIds\":[\"E-04\",\"E-15\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:48:59.436Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[\"E-15\"],\"factIds\":[\"C-14c\"],\"quote\":\"제 초안은 쓸모가 없어져 자정 넘어 지웠을 뿐입니다.\",\"direct\":false}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:49:28.817Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-04.3\"],\"citedEvidenceIds\":[\"E-13\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:49:53.486Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"question\",\"targetClaimIds\":[],\"citedEvidenceIds\":[],\"factIds\":[\"A-F9\"],\"quote\":\"제가 대표님 약을 챙겨 드린 적은 많아요. 혈압약하고 위장약이요. 그런데 수면제는 본 적이 없습니다. 적어도 평소에 드시던 약…\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T05:50:23.259Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-04.3\"],\"citedEvidenceIds\":[\"A-F9\",\"E-13\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:50:50.018Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-04.5\"],\"citedEvidenceIds\":[\"E-13\",\"E-04\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":1}",
+    "timestamp": "2026-10-13T05:51:16.040Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  },
+  {
+    "level": "info",
+    "message": "[AI 해석] {\"segments\":[{\"kind\":\"challenge\",\"targetClaimIds\":[\"C-04.3\",\"C-04.4\",\"C-04.5\",\"C-07.3\",\"C-08.2\",\"C-09.2\"],\"citedEvidenceIds\":[\"E-04\",\"E-15\"],\"factIds\":[],\"quote\":\"\"}],\"confidence\":0.95}",
+    "timestamp": "2026-10-13T05:51:54.790Z",
+    "url": "http://127.0.0.1:5191/src/ui/Interrogation.tsx"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "run": "mvbc1ra0gts03e5s",
+  "startedAt": "2026-10-16T19:00:27.864Z",
+  "lastQuestionAt": "2026-10-16T19:10:25.060Z",
+  "questions": 41,
+  "counts": {
+    "류준서": 8,
+    "서민아": 10,
+    "문태준": 10,
+    "수사팀": 13
+  },
+  "solvedChallenges": [
+    "X-L02",
+    "X-L03"
+  ],
+  "submitted": false,
+  "aiCalls": 69,
+  "aiFailed": 0,
+  "aiByTask": {
+    "desk": {
+      "n": 13,
+      "p50Ms": 5656,
+      "p90Ms": 7665,
+      "maxMs": 7770
+    },
+    "talk": {
+      "n": 28,
+      "p50Ms": 2434,
+      "p90Ms": 6794,
+      "maxMs": 9383
+    },
+    "statement": {
+      "n": 28,
+      "p50Ms": 3745,
+      "p90Ms": 5028,
+      "maxMs": 5247
+    }
+  },
+  "firstReply": {
+    "n": 41,
+    "p50Ms": 3436,
+    "p90Ms": 7595,
+    "maxMs": 9431
+  },
+  "lastReply": {
+    "n": 41,
+    "p50Ms": 4364,
+    "p90Ms": 8585,
+    "maxMs": 10336
+  },
+  "firstReplyByPerson": {
+    "류준서": {
+      "n": 8,
+      "p50Ms": 2306,
+      "p90Ms": 2706,
+      "maxMs": 2706
+    },
+    "서민아": {
+      "n": 10,
+      "p50Ms": 2026,
+      "p90Ms": 3436,
+      "maxMs": 4500
+    },
+    "문태준": {
+      "n": 10,
+      "p50Ms": 5496,
+      "p90Ms": 7595,
+      "maxMs": 9431
+    },
+    "수사팀": {
+      "n": 13,
+      "p50Ms": 5682,
+      "p90Ms": 7681,
+      "maxMs": 7788
+    }
+  }
+}

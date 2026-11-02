@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1440">
+<title>스타일 시안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&family=Nanum+Myeongjo:wght@400;700&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f3f2ee; --paper-2:#ebeae5; --paper-3:#e2e1db;
+  --ink:#1f1f1f; --ink-2:#4a4a4a; --ink-3:#808080; --ink-4:#b3b3b0;
+  --noise:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .07 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  --hatch:repeating-linear-gradient(135deg, transparent 0 5px, rgba(0,0,0,.13) 5px 6px);
+  --ui:'IBM Plex Sans KR',sans-serif; --doc:'Nanum Myeongjo',serif; --mono:'Nanum Gothic Coding',monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper) var(--noise);color:var(--ink);font:14px/1.6 var(--ui);min-width:1280px}
+.frame{max-width:1440px;margin:0 auto;padding:28px 32px 48px}
+.frame-label{font:12px var(--mono);color:var(--ink-3);margin:0 0 10px;letter-spacing:.04em}
+[data-sk]{position:relative}
+.sk-svg{position:absolute;left:0;top:0;overflow:visible;pointer-events:none}
+svg line,svg path{stroke:var(--ink);stroke-linecap:round}
+.card{background:var(--paper-2) var(--noise)}
+.stamp{display:inline-block;font:600 11px var(--ui);padding:1px 6px;letter-spacing:.06em}
+.muted{color:var(--ink-3)}
+.code{font:12px var(--mono);color:var(--ink-3)}
+
+.titleblock{display:grid;grid-template-columns:2.2fr 1.2fr 1fr 1fr 1fr;height:64px}
+.titleblock>div{padding:8px 14px;display:flex;flex-direction:column;justify-content:center}
+.titleblock .k{font:11px var(--mono);color:var(--ink-3)}
+.titleblock .v{font-weight:500}
+.titleblock .case{font:700 20px var(--doc)}
+
+.hub{display:grid;grid-template-columns:250px minmax(0,1fr) 300px;gap:18px;margin-top:18px;height:760px}
+.panel{padding:14px;display:flex;flex-direction:column;min-height:0}
+.sec{font:11px var(--mono);color:var(--ink-3);margin:14px 0 6px;display:flex;align-items:center;gap:8px}
+.sec::after{content:"";flex:1;border-top:1px solid var(--ink-4)}
+.sec:first-child{margin-top:0}
+.person{display:flex;gap:10px;align-items:center;padding:7px 8px;margin-bottom:4px;cursor:pointer}
+.person.on{background:var(--hatch)}
+.person .nm{font-weight:500}
+.person .rl{font-size:12px;color:var(--ink-3)}
+.item{display:flex;gap:8px;align-items:baseline;padding:4px 8px;font-size:13px}
+.item .code{min-width:34px}
+.new{margin-left:auto;font:10px var(--mono);padding:0 4px;border:1px solid var(--ink-2)}
+
+.portrait{flex:none;background:var(--paper-3) var(--noise)}
+
+.chat{padding:0}
+.chat-head{display:flex;gap:14px;align-items:center;padding:14px 18px;border-bottom:1px solid var(--ink-4)}
+.chat-body{flex:1;padding:18px 22px;display:flex;flex-direction:column;gap:16px;overflow:hidden}
+.msg{max-width:72%;padding:12px 14px}
+.msg.me{align-self:flex-end;background:var(--paper) var(--noise)}
+.msg.them{font:15px/1.75 var(--doc)}
+.msg .who{font:11px var(--mono);color:var(--ink-3);margin-bottom:4px}
+.quote{padding:6px 10px;margin-bottom:8px;font:13px/1.6 var(--doc);color:var(--ink-2);border-left:2px solid var(--ink-2)}
+.chip{display:inline-flex;gap:6px;align-items:center;padding:3px 8px;margin:0 6px 8px 0;font-size:12px;background:var(--paper-2)}
+.record{align-self:center;padding:8px 14px;font-size:13px;text-align:center}
+.record b{font-weight:600}
+.composer{padding:12px 18px 16px;border-top:1px solid var(--ink-4)}
+.composer .attached{min-height:28px}
+.composer .row{display:flex;gap:10px}
+.input{flex:1;padding:10px 12px;color:var(--ink-3);background:var(--paper) var(--noise)}
+.btn{padding:10px 16px;font-weight:500;cursor:pointer;background:transparent;border:0;font-family:var(--ui)}
+
+.clip{padding:10px 12px;margin-bottom:10px;font-size:13px;background:var(--paper) var(--noise)}
+.clip:nth-child(odd){transform:rotate(-.4deg)}
+.clip:nth-child(even){transform:rotate(.35deg)}
+.clip .src{font:11px var(--mono);color:var(--ink-3);display:block;margin-bottom:2px}
+.clip q{font-family:var(--doc);quotes:"“" "”"}
+.memo{flex:1;padding:6px 10px;font:14px/28px var(--doc);color:var(--ink-2);
+  background:repeating-linear-gradient(transparent 0 27px, rgba(0,0,0,.12) 27px 28px)}
+
+.board{margin-top:18px;padding:18px 20px 22px}
+.board-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:12px}
+.legend{display:flex;gap:18px;font-size:12px;color:var(--ink-2);align-items:center}
+.legend span{display:inline-flex;gap:6px;align-items:center}
+.lg{display:inline-block;width:26px;height:12px}
+.grid{position:relative;display:grid;grid-template-columns:140px repeat(10,1fr);
+  background-image:linear-gradient(rgba(0,0,0,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,.06) 1px,transparent 1px);background-size:100% 12px,12px 100%}
+.th{font:11px var(--mono);color:var(--ink-3);padding:4px 0 6px;border-bottom:1px solid var(--ink-2)}
+.rowlab{height:62px;display:flex;align-items:center;font-weight:500;border-bottom:1px solid var(--ink-4)}
+.cell{height:62px;border-bottom:1px solid var(--ink-4);border-left:1px dotted var(--ink-4)}
+.tc{position:absolute;height:40px;padding:3px 8px;font-size:12px;line-height:1.35;overflow:hidden;white-space:nowrap;background:var(--paper) var(--noise)}
+.tc small{display:block;font:10px var(--mono);color:var(--ink-3)}
+.tc.gap{background:var(--hatch)}
+.vmark{position:absolute;top:22px;bottom:0;border-left:1.5px dashed var(--ink)}
+.vmark span{position:absolute;top:-2px;left:4px;font:10px var(--mono);background:var(--paper);padding:0 3px;white-space:nowrap}
+.pin{position:absolute;width:10px;height:10px;transform:translate(-5px,0) rotate(45deg);border:1.5px solid var(--ink);background:var(--paper)}
+
+.plan-wrap{margin-top:18px;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px}
+.plan{padding:16px}
+.plan svg text{font-family:var(--ui);fill:var(--ink)}
+.toggle{display:flex;gap:8px;align-items:center;font-size:13px;margin-bottom:8px;cursor:pointer}
+.box{width:14px;height:14px;display:inline-block}
+.doc{padding:22px 24px;font:14px/1.85 var(--doc)}
+.doc h4{font:700 16px var(--doc);margin:0 0 2px;text-align:center;letter-spacing:.3em}
+.doc .meta{font:11px var(--mono);color:var(--ink-3);text-align:center;margin-bottom:14px}
+.doc .sel{background:var(--hatch)}
+.sign{margin-top:14px;text-align:right;font-size:13px}
+.seal{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;font:600 12px var(--ui);position:relative;vertical-align:middle;margin-left:4px}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="pencil" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3" result="warp"/>
+    <feDisplacementMap in="SourceGraphic" in2="warp" scale="1.4" xChannelSelector="R" yChannelSelector="G" result="wobble"/>
+    <feTurbulence type="fractalNoise" baseFrequency="1.8 .9" numOctaves="2" seed="11" result="grain"/>
+    <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -2 0 0 0 1.9" result="grainAlpha"/>
+    <feComposite in="wobble" in2="grainAlpha" operator="in"/>
+  </filter>
+</svg>
+<div class="frame">
+  <p class="frame-label">01 / 수사 본부 — 심문 중</p>
+
+  <div class="titleblock card" data-sk="double">
+    <div data-sk><span class="k">사건명</span><span class="case">한결 건축사사무소 대표 사망 사건</span></div>
+    <div data-sk><span class="k">사건 번호</span><span class="v">2026-성동-1021</span></div>
+    <div data-sk><span class="k">현재 시각</span><span class="v">10. 22. 01:40</span></div>
+    <div data-sk><span class="k">진술 기록</span><span class="v">14건</span></div>
+    <div data-sk><span class="k">확보 자료</span><span class="v">9건</span></div>
+  </div>
+
+  <div class="hub">
+    <aside class="panel card" data-sk>
+      <div class="sec">관계인</div>
+      <div class="person"><div class="portrait" data-portrait="1" style="width:38px;height:46px"></div><div><div class="nm">박소은</div><div class="rl">선임 · 7년 차</div></div></div>
+      <div class="person on" data-sk="dash"><div class="portrait" data-portrait="2" style="width:38px;height:46px"></div><div><div class="nm">김도형</div><div class="rl">실장 · 16년 차</div></div></div>
+      <div class="person"><div class="portrait" data-portrait="3" style="width:38px;height:46px"></div><div><div class="nm">이재희</div><div class="rl">팀장 · 공모 PM</div></div></div>
+      <div class="person"><div class="portrait" data-portrait="4" style="width:38px;height:46px"></div><div><div class="nm">최민준</div><div class="rl">사원 · 2년 차</div></div></div>
+
+      <div class="sec">자료</div>
+      <div class="item"><span class="code">E-01</span>평면도</div>
+      <div class="item"><span class="code">E-02</span>시체 검안 소견</div>
+      <div class="item"><span class="code">E-03</span>현장 감식 메모</div>
+      <div class="item"><span class="code">E-04</span>도어락 출입 이력</div>
+      <div class="item"><span class="code">E-05</span>플로터 작업 로그<span class="new">새</span></div>
+      <div class="item"><span class="code">E-06</span>피해자 통화 기록</div>
+
+      <div class="sec">수사 도구</div>
+      <div class="item"><span class="code">T</span>타임라인 보드</div>
+      <div class="item"><span class="code">S</span>진술 기록부</div>
+      <div class="item"><span class="code">R</span>최종 보고서</div>
+    </aside>
+
+    <main class="panel chat card" data-sk>
+      <div class="chat-head">
+        <div class="portrait" data-portrait="2" style="width:58px;height:72px"></div>
+        <div>
+          <div style="font:700 18px var(--doc)">김도형 <span class="muted" style="font:13px var(--ui)">실장</span></div>
+          <div class="code">심문 2회차 · 공식 진술 B-01 ~ B-02</div>
+        </div>
+        <span class="stamp" data-sk="double" style="margin-left:auto">참고인</span>
+      </div>
+
+      <div class="chat-body">
+        <div class="msg them" data-sk><div class="who">김도형</div>말씀드렸잖습니까. 저녁 일곱 시 보고 이후로는 모형실을 떠난 적이 없습니다. 박 선임도 마찬가지고요.</div>
+
+        <div class="msg me" data-sk>
+          <div class="who">수사관</div>
+          <div class="quote">B-01 · “박 선임도 그동안 나간 적이 없습니다.”</div>
+          <span class="chip" data-sk>E-05 플로터 작업 로그 · 21:44 soeun.park</span>
+          <div>9시 44분에 박 선임 계정으로 출력실 플로터가 돌았습니다. 박 선임이 모형실에 계속 있었다는 말, 실장님이 직접 보고 하신 겁니까?</div>
+        </div>
+
+        <div class="msg them" data-sk><div class="who">김도형</div>…박 선임이 부탁했습니다. 같이 있었던 걸로 해 달라고요. 개인적인 사정이 있는 것 같아서 맞춰 준 겁니다. 저는 정말 계속 모형실에 있었습니다.</div>
+
+        <div class="record" data-sk="double"><b>진술 기록</b> · B-03 추가 — “박소은이 모형실을 비운 사실을 알고 있었다. 부탁을 받고 진술을 맞췄다.” <span class="code">근거 E-05, B-01</span></div>
+      </div>
+
+      <div class="composer">
+        <div class="attached"><span class="chip" data-sk="dash">B-03 인용 대기</span></div>
+        <div class="row">
+          <div class="input" data-sk>질문하거나, 근거를 붙여 모순을 지적하세요</div>
+          <button class="btn" data-sk>근거 첨부</button>
+          <button class="btn" data-sk="double">말하기</button>
+        </div>
+      </div>
+    </main>
+
+    <aside class="panel card" data-sk>
+      <div class="sec">근거 트레이</div>
+      <div>
+        <div class="clip" data-sk><span class="src">A-01 박소은 초기 진술</span><q>둘 다 한 번도 모형실을 나가지 않았어요.</q></div>
+        <div class="clip" data-sk><span class="src">E-04 도어락 출입 이력</span>22:02 비밀번호 열림</div>
+        <div class="clip" data-sk><span class="src">E-03 현장 감식 메모</span>계단 모양 폼보드 조각, 스프레이 접착제</div>
+        <div class="clip" data-sk="dash"><span class="src">B-03 김도형 수정 진술</span><q>부탁을 받고 진술을 맞췄다.</q></div>
+      </div>
+      <div class="sec">메모</div>
+      <div class="memo" data-sk>22:02 — 누가 들어왔나<br>상패에 피해자 지문도 없음<br>박소은: 21:44 이후 어디?<br>그 사이 실장은?</div>
+    </aside>
+  </div>
+</div>
+
+<div class="frame" style="padding-top:0">
+  <p class="frame-label">02 / 타임라인 보드 — 플레이어가 직접 배치</p>
+  <div class="board card" data-sk>
+    <div class="board-head">
+      <div style="font:700 18px var(--doc)">10월 21일 21:00 – 22:40</div>
+      <div class="legend">
+        <span><i class="lg" data-sk></i>진술(주장)</span>
+        <span><i class="lg" data-sk="double"></i>기록으로 확인</span>
+        <span><i class="lg" data-sk="dash" style="background:var(--hatch)"></i>확인되지 않은 시간</span>
+        <span><i class="pin" style="position:static;transform:rotate(45deg)"></i>&nbsp;시점 기록</span>
+      </div>
+    </div>
+    <div class="grid" id="tl">
+      <div class="th"></div>
+      <div class="th">21:00</div><div class="th">21:10</div><div class="th">21:20</div><div class="th">21:30</div><div class="th">21:40</div><div class="th">21:50</div><div class="th">22:00</div><div class="th">22:10</div><div class="th">22:20</div><div class="th">22:30</div>
+    </div>
+  </div>
+</div>
+
+<div class="frame" style="padding-top:0">
+  <p class="frame-label">03 / 평면도와 서류</p>
+  <div class="plan-wrap">
+    <div class="plan card" data-sk>
+      <label class="toggle" id="camToggle"><i class="box" data-sk id="camBox"></i>C의 화상회의 카메라 화각 표시</label>
+      <svg id="plan" viewBox="0 0 900 470" width="100%"></svg>
+    </div>
+    <div class="doc card" data-sk>
+      <h4>진 술 서</h4>
+      <div class="meta">A-01 · 2026. 10. 21. 23:15 작성</div>
+      성명 박소은 (32) · 한결 건축사사무소 선임<br><br>
+      8시 반부터 발견 때까지 김 실장님과 모형실에서 모형 작업만 했어요. 저는 건물 매스를, 실장님은 계단식 열람실 매스를 맡았어요. <span class="sel">둘 다 한 번도 모형실을 나가지 않았어요.</span> 9시 반쯤 소장님이 모형 사진을 보내라고 하셔서 보내 드렸어요.
+      <div class="sign">위 진술은 사실과 다름없음 &nbsp; 박 소 은 <span class="seal" data-seal>인</span></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const NS='http://www.w3.org/2000/svg';
+function rng(seed){let s=seed%2147483647||1;return()=>{s=s*16807%2147483647;return(s-1)/2147483646}}
+function skLine(g,x1,y1,x2,y2,o,r){
+  const passes=o.passes||2,len=Math.hypot(x2-x1,y2-y1)||1,ux=(x2-x1)/len,uy=(y2-y1)/len,nx=-uy,ny=ux;
+  for(let p=0;p<passes;p++){
+    const os=o.os??5,o1=os*(.3+r()*.9),o2=os*(.3+r()*.9),j=o.j??.8,a=(r()-.5)*2*j,b=(r()-.5)*2*j;
+    const l=document.createElementNS(NS,'line');
+    l.setAttribute('x1',x1-ux*o1+nx*a);l.setAttribute('y1',y1-uy*o1+ny*a);
+    l.setAttribute('x2',x2+ux*o2+nx*b);l.setAttribute('y2',y2+uy*o2+ny*b);
+    l.setAttribute('stroke-width',((o.w||1)*(.65+r()*.5)).toFixed(2));
+    l.setAttribute('opacity',((o.op||.85)*(.55+r()*.45)).toFixed(2));
+    if(o.dash)l.setAttribute('stroke-dasharray',o.dash);
+    if(o.color)l.style.stroke=o.color;
+    g.appendChild(l);
+  }
+}
+function skRect(g,x,y,w,h,o,r){skLine(g,x,y,x+w,y,o,r);skLine(g,x+w,y,x+w,y+h,o,r);skLine(g,x+w,y+h,x,y+h,o,r);skLine(g,x,y+h,x,y,o,r)}
+function skArc(g,cx,cy,rad,a0,a1,o,r){
+  const passes=o.passes||2,dir=a1>=a0?1:-1;
+  for(let p=0;p<passes;p++){
+    const os=(o.os??12)/rad,s0=a0-dir*os*(.5+r()*.9),s1=a1+dir*os*(.5+r()*.9);
+    const rr=rad+(r()-.5)*2*(o.j??1.2),x0=cx+(r()-.5)*1.4,y0=cy+(r()-.5)*1.4,sy=o.sy||1,pt=a=>(x0+Math.cos(a)*rr).toFixed(2)+' '+(y0+Math.sin(a)*rr*sy).toFixed(2);
+    const n=Math.ceil(Math.abs(s1-s0)/(Math.PI*.9)),sw=dir>0?1:0;
+    let d='M'+pt(s0);
+    for(let k=1;k<=n;k++)d+=' A'+rr.toFixed(2)+' '+(rr*sy).toFixed(2)+' 0 0 '+sw+' '+pt(s0+(s1-s0)*k/n);
+    const pa=document.createElementNS(NS,'path');pa.setAttribute('d',d);pa.setAttribute('fill','none');
+    pa.setAttribute('stroke-width',((o.w||1)*(.65+r()*.5)).toFixed(2));
+    pa.setAttribute('opacity',((o.op||.85)*(.55+r()*.45)).toFixed(2));
+    if(o.dash)pa.setAttribute('stroke-dasharray',o.dash);
+    g.appendChild(pa);
+  }
+}
+function ink(svg){const g=document.createElementNS(NS,'g');g.setAttribute('filter','url(#pencil)');svg.appendChild(g);return g}
+function sketch(el,i){
+  el.querySelector(':scope>.sk-svg')?.remove();
+  const w=el.offsetWidth,h=el.offsetHeight,mode=el.dataset.sk,r=rng(i*7919+13);
+  const svg=document.createElementNS(NS,'svg');svg.classList.add('sk-svg');svg.setAttribute('width',w);svg.setAttribute('height',h);
+  const g=ink(svg),big=Math.min(w,h)>120,o={os:big?7:4,w:big?1.15:.95,passes:2,dash:mode==='dash'?'5 4':null};
+  skRect(g,.5,.5,w-1,h-1,o,r);
+  if(mode==='double')skRect(g,3.5,3.5,w-7,h-7,{os:2,w:.75,passes:1},r);
+  el.appendChild(svg);
+}
+function seal(el,i){
+  el.querySelector(':scope>.sk-svg')?.remove();
+  const w=el.offsetWidth,h=el.offsetHeight,r=rng(i*31+5),svg=document.createElementNS(NS,'svg');
+  svg.classList.add('sk-svg');svg.setAttribute('width',w);svg.setAttribute('height',h);const g=ink(svg);
+  skArc(g,w/2,h/2,Math.min(w,h)/2-1,-Math.PI/2,Math.PI*1.5,{os:9,w:1.1,passes:2},r);
+  el.appendChild(svg);
+}
+function portrait(el,i){
+  const w=el.offsetWidth,h=el.offsetHeight,r=rng(i*104729+7);
+  const root=document.createElementNS(NS,'svg');root.setAttribute('width',w);root.setAttribute('height',h);root.style.display='block';
+  const svg=ink(root);
+  const s=w/40,cx=w/2,hy=h*.38,hr=9*s,o={os:1.5*s,w:.9,passes:2};
+  for(let k=-h;k<w;k+=5*s)skLine(svg,k,h,k+h,0,{os:0,w:.4,passes:1,op:.35,j:.3},r);
+  skArc(svg,cx,hy,hr*.95,-Math.PI/2,Math.PI*1.5,{os:4*s,w:.9,passes:2,sy:1.18,j:.5},r);
+  const ny=hy+hr*1.1;skLine(svg,cx-4*s,ny,cx-4*s,ny+4*s,o,r);skLine(svg,cx+4*s,ny,cx+4*s,ny+4*s,o,r);
+  skLine(svg,cx-4*s,ny+4*s,cx-16*s,ny+9*s,o,r);skLine(svg,cx+4*s,ny+4*s,cx+16*s,ny+9*s,o,r);
+  skLine(svg,cx-16*s,ny+9*s,cx-17*s,h,o,r);skLine(svg,cx+16*s,ny+9*s,cx+17*s,h,o,r);
+  el.appendChild(root);el.dataset.sk='';
+}
+document.querySelectorAll('[data-portrait]').forEach((el,i)=>portrait(el,+el.dataset.portrait*3+i));
+
+const rows=[
+  ['한정우',[{pin:'21:43',label:'21:43 통화 종료 · “누가 왔네” E-06'}]],
+  ['박소은',[{s:'21:00',e:'21:40',t:'모형실',src:'A-01 주장',k:''},{s:'21:43',e:'21:50',t:'출력실 플로터',src:'E-05',k:'double'},{s:'21:52',e:'22:01',t:'계단실 통화',src:'A-03 주장',k:''},{s:'22:03',e:'22:40',t:'모형실',src:'A-01',k:''}]],
+  ['김도형',[{s:'21:00',e:'21:40',t:'모형실',src:'A-01 · B-01',k:''},{s:'21:40',e:'22:03',t:'확인되지 않음',src:'A-01 보증 철회',k:'gap'},{s:'22:03',e:'22:40',t:'모형실',src:'A-03',k:''}]],
+  ['이재희',[{s:'21:20',e:'21:33',t:'소장실 언쟁',src:'C-02 주장',k:''},{s:'21:40',e:'22:28',t:'화상회의 (녹화)',src:'E-07',k:'double'}]],
+  ['최민준',[{s:'21:36',e:'22:14',t:'외출 · 출력소 · 편의점',src:'D-01 · E-08 영수증',k:'double'},{pin:'21:52',label:''},{pin:'22:03',label:''}]],
+];
+const tl=document.getElementById('tl');
+rows.forEach(([n])=>{const l=document.createElement('div');l.className='rowlab';l.textContent=n;tl.appendChild(l);for(let k=0;k<10;k++){const c=document.createElement('div');c.className='cell';tl.appendChild(c)}});
+function layoutTL(){
+  tl.querySelectorAll('.tc,.vmark,.pin').forEach(e=>e.remove());
+  const lab=tl.querySelector('.rowlab'),x0=lab.offsetWidth,W=tl.offsetWidth-x0,top0=lab.offsetTop,RH=lab.offsetHeight;
+  const tx=t=>{const[h,m]=t.split(':').map(Number);return x0+((h*60+m)-1260)/100*W};
+  rows.forEach(([n,items],ri)=>items.forEach(it=>{
+    if(it.pin){const p=document.createElement('i');p.className='pin';p.style.left=tx(it.pin)+'px';p.style.top=(top0+ri*RH+26)+'px';tl.appendChild(p);
+      if(it.label){const s=document.createElement('div');s.className='code';s.style.cssText=`position:absolute;left:${tx(it.pin)+12}px;top:${top0+ri*RH+20}px;white-space:nowrap`;s.textContent=it.label;tl.appendChild(s);s.classList.add('tc');s.style.background='none';s.style.height='auto'}
+      return}
+    const d=document.createElement('div');d.className='tc'+(it.k==='gap'?' gap':'');
+    d.style.left=(tx(it.s)+2)+'px';d.style.width=(tx(it.e)-tx(it.s)-4)+'px';d.style.top=(top0+ri*RH+11)+'px';
+    d.dataset.sk=it.k==='gap'?'dash':it.k;d.innerHTML=it.t+'<small>'+it.src+'</small>';tl.appendChild(d);
+  }));
+  const v=document.createElement('div');v.className='vmark';v.style.left=tx('22:02')+'px';v.innerHTML='<span>22:02 도어락 입장 E-04</span>';tl.appendChild(v);
+}
+
+function drawPlan(showCam){
+  const svg=document.getElementById('plan');svg.innerHTML='';const r=rng(4242),g=ink(svg);
+  const W=(x1,y1,x2,y2)=>skLine(g,x1,y1,x2,y2,{os:6,w:1.6,passes:3,j:.9},r);
+  const T=(x1,y1,x2,y2,o={})=>skLine(g,x1,y1,x2,y2,Object.assign({os:4,w:.8,passes:2},o),r);
+  const D=(hx,hy,w,c,o)=>{const a=o*Math.PI/180;T(hx,hy,hx+Math.cos(a)*w,hy+Math.sin(a)*w,{os:3,w:.9});skArc(g,hx,hy,w,c*Math.PI/180,a,{os:16,w:.6,passes:2,op:.7},r)};
+  const txt=(x,y,s,sz=14,wt=500,anchor='middle')=>{const t=document.createElementNS(NS,'text');t.setAttribute('x',x);t.setAttribute('y',y);t.setAttribute('font-size',sz);t.setAttribute('font-weight',wt);t.setAttribute('text-anchor',anchor);t.textContent=s;svg.appendChild(t)};
+  for(let k=0;k<900;k+=20)T(k,0,k,470,{os:0,w:.3,passes:1,op:.18,j:.2});
+  for(let k=0;k<470;k+=20)T(0,k,900,k,{os:0,w:.3,passes:1,op:.18,j:.2});
+  W(60,50,420,50);W(480,50,860,50);W(860,50,860,440);W(860,440,210,440);W(210,440,210,210);W(210,210,60,210);W(60,210,60,50);
+  W(210,50,210,110);W(210,150,210,210);W(660,50,660,150);W(660,190,660,210);
+  W(210,210,310,210);W(350,210,860,210);
+  W(210,260,280,260);W(320,260,550,260);W(590,260,710,260);
+  W(470,260,470,440);W(710,260,710,440);
+  W(770,210,770,230);W(770,270,770,340);W(770,380,770,440);W(770,300,860,300);
+  D(420,50,60,0,-90);D(310,210,40,0,90);D(280,260,40,0,90);D(550,260,40,0,90);D(770,230,40,90,0);D(770,340,40,90,0);D(210,110,40,90,180);D(660,150,40,90,0);
+  T(60,50,60,12,{dash:'4 4'});T(60,12,330,12,{dash:'4 4'});T(330,12,330,50,{dash:'4 4'});
+  [[330,100],[390,100],[480,150],[540,150]].forEach(([x,y])=>skRect(g,x-18,y-10,36,20,{os:2,w:.7,passes:2},r));
+  skRect(g,800,395,30,20,{os:2,w:.7,passes:2},r);
+  for(let k=0;k<4;k++)T(800+k*8,415,808+k*8,395,{os:0,w:.4,passes:1,op:.5});
+  [[110,80],[590,300],[815,425]].forEach(([x,y])=>skArc(g,x,y,10,-Math.PI/2,Math.PI*1.5,{os:8,w:.8,passes:2},r));
+  if(showCam){T(330,112,250,205,{dash:'6 4',w:1});T(330,112,420,205,{dash:'6 4',w:1});skArc(g,330,112,40,Math.PI*.36,Math.PI*.7,{os:10,w:.7,passes:1,dash:'2 3'},r)}
+  const sx=600,sy=458;T(sx,sy,sx+100,sy,{os:0,w:1.2});for(let k=0;k<=4;k++)T(sx+k*25,sy-4,sx+k*25,sy+4,{os:0,w:.8});
+  txt(195,32,'공용 계단실 · 화장실',12,400);txt(480,30,'현관',11,400);
+  txt(135,128,'302 출력실');txt(435,128,'301 작업실');txt(760,128,'303 탕비실');
+  txt(460,240,'복도',12,400);txt(740,330,'복도',12,400);
+  txt(340,355,'304 회의실');txt(590,355,'305 모형실');txt(815,260,'306 자료실',12);txt(815,375,'307 소장실',12);
+  txt(815,392,'사건 현장',11,400);
+  txt(330,90,'C',11,600);txt(390,90,'B',11,600);txt(480,140,'A',11,600);txt(540,140,'D',11,600);
+  [[110,80,'1'],[590,300,'2'],[815,425,'3']].forEach(([x,y,n])=>txt(x,y+4,n,11,600));
+  if(showCam)txt(335,175,'카메라 화각',11,400);
+  txt(sx+50,sy-8,'0       2.5       5m',10,400);
+}
+let cam=true;
+document.getElementById('camToggle').addEventListener('click',()=>{cam=!cam;drawPlan(cam);drawCheck()});
+function drawCheck(){const b=document.getElementById('camBox');b.querySelector('.ck')?.remove();if(!cam)return;const s=document.createElementNS(NS,'svg');s.classList.add('ck','sk-svg');s.setAttribute('width',14);s.setAttribute('height',14);const r=rng(9),g=ink(s);skLine(g,2,7,6,12,{os:1,w:1.4},r);skLine(g,6,12,13,1,{os:1,w:1.4},r);b.appendChild(s)}
+
+function sketchAll(){layoutTL();document.querySelectorAll('[data-sk]').forEach((el,i)=>sketch(el,i));document.querySelectorAll('[data-seal]').forEach((el,i)=>seal(el,i));drawCheck()}
+drawPlan(cam);
+document.fonts.ready.then(sketchAll);
+let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(sketchAll,120)});
+</script>
+</body>
+</html>

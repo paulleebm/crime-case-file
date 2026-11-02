@@ -1,0 +1,55 @@
+- generic: 수사 결과
+- generic: 해결
+- generic: 해결
+- paragraph: 숨긴 방문과 마지막 통화의 시각을 맞춰 거짓말을 밝혀냈다. 해린의 직접 증언과 원본 기록이 도현의 발견 주장을 무너뜨렸다.
+- heading "1 누가 범인은 누구인가?" [level=4]:
+  - text: "1"
+  - generic: 누가
+  - text: 범인은 누구인가?
+- button "윤해린 초상 윤해린" [disabled]:
+  - img "윤해린 초상"
+  - text: 윤해린
+- button "강도현 초상 강도현" [disabled]:
+  - img "강도현 초상"
+  - text: 강도현
+- button "자살" [disabled]:
+  - text: 자살
+- button "사고사" [disabled]:
+  - text: 사고사
+- heading "2 언제 범행은 언제 일어났나?" [level=4]:
+  - text: "2"
+  - generic: 언제
+  - text: 범행은 언제 일어났나?
+- generic: 대표가 18시 58분 해린과 통화를 마친 뒤부터 19시 6분 신고 사이이다.
+- generic: 정답
+- generic: "모범 답: 대표와 해린의 직접 통화가 끝난 18:58 이후, 19:06 신고 이전. 도현의 자백상 약 18:59다."
+- heading "3 무엇으로 어디서 무엇으로 공격했나?" [level=4]:
+  - text: "3"
+  - generic: 무엇으로
+  - text: 어디서 무엇으로 공격했나?
+- generic: 상담실에서 유리 문진으로 대표의 머리를 쳤다.
+- generic: 정답
+- generic: "모범 답: 상담실에서 유리 문진으로 머리를 공격했다."
+- heading "4 그 뒤 범행 뒤 무엇을 숨기려 했나?" [level=4]:
+  - text: "4"
+  - generic: 그 뒤
+  - text: 범행 뒤 무엇을 숨기려 했나?
+- generic: 문진 지문을 닦고 18시 53분 방문을 숨기며 발견자인 것처럼 다시 들어와 신고했다.
+- generic: 정답
+- generic: "모범 답: 문진의 지문을 닦고 18:53 방문을 숨겼다. 방문이 드러나자 그때 이미 숨져 있었다고 거짓말했다."
+- heading "5 왜 피해자와 왜 다퉜나?" [level=4]:
+  - text: "5"
+  - generic: 왜
+  - text: 피해자와 왜 다퉜나?
+- generic: 해린의 계약금 500만 원을 개인 계좌로 받아 빚을 막는 데 쓴 사실이 드러나 대표와 다퉜다.
+- generic: 정답
+- generic: "모범 답: 고객의 계약금 500만 원을 개인적으로 쓴 사실이 드러나자 덮어 달라고 했지만 대표가 거절했다."
+- button "진상 해설 보기":
+  - text: 진상 해설 보기
+- button "사건 이후":
+  - text: 사건 이후
+- button "수사 본부로":
+  - text: 수사 본부로
+- button "표지로":
+  - text: 표지로
+- text: 강도현의 진술서가 정정되었다
